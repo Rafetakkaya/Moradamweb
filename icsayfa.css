@@ -1,0 +1,4881 @@
+@import url("http://fonts.cdnfonts.com/css/monument-extended");
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("assets/fonts/sf-ui-display-ultralight-58646b19bf205.otf");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("assets/fonts/sf-ui-display-thin-58646e9b26e8b.otf");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("assets/fonts/SF-UI-Display.ttf");
+}
+
+/* HEADER VE NAVBAR */
+
+body {
+  overflow-x: hidden;
+}
+
+.girisyap {
+  margin-bottom: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  color: #402098 !important;
+
+  text-align: center;
+}
+.teklifiste {
+  border: 1px solid #40239e;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  background-color: #40239e;
+  border: 1px solid white;
+}
+
+#uls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.calcap{
+  display: flex; 
+  justify-content: center;
+   align-items: center;
+
+}
+.anatoggle{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-size: 20px;
+
+}
+
+select {
+  outline: none;
+  border: none;
+}
+.fleg {
+  width: 25px;
+  object-fit: contain;
+}
+.capslide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cap {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+}
+.cappar {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#prev {
+  position: absolute;
+  left: 1050px;
+  width: 15px;
+}
+#previ {
+  position: absolute;
+  left: 1030px;
+  width: 15px;
+}
+.iconstl {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+.tognav {
+  border: none;
+}
+.tognav:active > .hanburg {
+  border: none;
+
+  color: #7e63c0;
+}
+
+.businesshead {
+  margin-top: 100px;
+  flex-direction: column;
+}
+.businesparagraf {
+  flex-direction: column;
+
+  display: flex;
+  width: 100%;
+}
+.busines1paragraf {
+  font-family: San Francisco !important;
+  color: #9074f2;
+  font-size: 25px;
+}
+
+.busines2paragraf {
+  font-family: San Francisco !important;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.businessimg1 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 60px;
+}
+.businessimg2 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 95px;
+}
+.businessimg3 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 100px;
+}
+.businessimg4 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 150px;
+}
+.businessimg5 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 90px;
+}
+.headbosluk {
+  margin-top: 30px;
+}
+.mainheadsayfa {
+  margin-bottom: 32px;
+}
+.navfontsize {
+  font-family: San Francisco !important;
+}
+#slider3{
+  display: flex;
+   justify-content: center; 
+  align-items: center;
+
+}
+.fa-chevron-left{
+  font-size: 15px;
+
+}
+.bidblock{
+  color: #9074f2; 
+  font-size: 25px;
+
+}
+.Zirve{
+  flex-direction: row !important; 
+  display: flex !important; 
+  justify-content: left !important; 
+  align-items: flex-start !important;
+
+}
+.sayi{
+  text-align: center; 
+   font-size: 20px;
+    font-weight: 700;
+}
+/* CARD1BODY */
+
+.klk {
+  display: none;
+}
+.bryoket {
+  display: none;
+}
+.vnv {
+  display: none;
+}
+
+.card1head {
+  background-color: #f9f9f9;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.cardheadimg1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cardheadimg2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.cardheadimg3 {
+}
+.cardlead5img {
+  width: 800px;
+}
+.assedcardalinkset {
+  width: 220px;
+  padding: 8px 0px;
+  border: 1px solid white;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px rgba(82, 81, 81, 0.2);
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: black;
+}
+.assedcardalinkset:hover {
+  width: 220px;
+  padding: 8px 0px;
+  border: 1px solid white;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px rgba(82, 81, 81, 0.2);
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.assetcardlike {
+  margin-bottom: 50px;
+}
+
+.card1link {
+  font-family: San Francisco !important;
+  color: white;
+  border: 1px solid;
+  padding: 11px 83px 11px 56px;
+  height: 60px;
+  background-color: #416ff4;
+  border-radius: 6px;
+  border: 1px solid #416ff4;
+  text-decoration: none;
+}
+.card1link:hover {
+  font-family: San Francisco !important;
+  color: white;
+  border: 1px solid;
+  padding: 11px 83px 11px 56px;
+
+  height: 60px;
+  background-color: #416ff4;
+  border-radius: 6px;
+  border: 1px solid #416ff4;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.card1link:active {
+  color: white;
+  border: 1px solid;
+  padding: 10px 45px 10px 45px;
+  background-color: #416ff4;
+  border-radius: 6px;
+  border: 1px solid #416ff4;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.card1paragraf {
+  color: #0d152e;
+  font-size: 40px;
+  font-family: "Monument Extended", sans-serif !important;
+}
+.card1img {
+  width: 265px;
+}
+.onlyfont {
+  font-family: San Francisco !important;
+  color: #5a7184;
+  margin-bottom: 40px;
+}
+.card1head {
+  background-color: white !important;
+}
+.cardfontmidsizefor{
+  text-align: center;
+   align-items: center; 
+   display: flex;
+
+}
+
+/* SLİDERLEAD */
+.tek {
+  display: none;
+}
+.sliderparagrafyoket {
+  display: none !important;
+}
+.sliderlead {
+  background-image: url(assets/arkakisim2@2x.png) !important;
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  padding: 50px 0px 50px 0px;
+  background-position: 140px 260px;
+
+  width: 100%;
+}
+.sliderleads{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-right: 15px; 
+
+}
+
+.bodysliderarrow1 {
+  margin-right: 185px;
+}
+.bodysliderarrow2 {
+  margin-left: 185px;
+}
+#slider1 {
+  background: linear-gradient(90deg, #f3f3f3 0%, white 50%);
+}
+.carouselslide {
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.2);
+}
+.itemler {
+  font-family: "Monument Extended", sans-serif !important;
+  text-align: center;
+  font-size: 32px;
+   font-weight: 500; 
+   text-decoration: none;
+}
+.i {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+}
+.sliderlinklead {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: row;
+}
+.sliderlinka {
+  font-size: 18px;
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sliderlinka:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.g {
+  width: 100%;
+
+  height: 533px;
+  object-fit: contain;
+}
+.sirabuluculinkLead {
+  margin-top: 100px;
+  width: 500px;
+  display: flex;
+  float: right;
+  flex-direction: column;
+}
+.slideryoketbigboy{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-right: 15px; 
+
+}
+.sirabuluculink1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #dedede;
+  height: 44px;
+  width: 200px;
+  color: #000000;
+}
+.redser{
+  width: 360px; 
+
+}
+.Data1 {
+  font-family: San Francisco !important;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.sirabuluculink2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #dedede;
+  width: 230px;
+  height: 44px;
+  color: #000000;
+}
+.Data2 {
+  font-family: San Francisco !important;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.sirabuluculink3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #dedede;
+  padding-left: 20px;
+  width: 200px;
+  height: 44px;
+  color: #000000;
+}
+.Data3 {
+  font-family: San Francisco !important;
+  margin-left: 30px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.sirabuluculink4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #dedede;
+  width: 230px;
+  height: 44px;
+  color: #000000;
+}
+.Data4 {
+  font-family: San Francisco !important;
+  margin-right: 7px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.sirabuluculink5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #dedede;
+  width: 230px;
+  height: 44px;
+  color: #000000;
+}
+.Data5 {
+  font-family: San Francisco !important;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.Dataimg5 {
+  background-color: black;
+  border-radius: 15px;
+}
+.sirabuluculink6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #dedede;
+  width: 200px;
+  height: 44px;
+  color: #000000;
+}
+.Data6 {
+  font-family: San Francisco !important;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.sirabulucuimgfont {
+  margin-left: 21px !important;
+}
+.sirabuluculukhead {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.sirabuluculukhead a{
+  text-decoration: none !important;
+
+}
+.ortala {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.sırarow{
+  color: #A764BF ;
+   font-size: 35px;
+
+}
+.yenipar{
+  color: #81838C; 
+
+}
+
+/* <!-- MORADAM BUSINESS --> */
+
+.markakimlikimg {
+  margin-top: 0px;
+  width: 500px !important;
+  position: relative;
+  border: 1px solid white;
+  border-radius: 6px;
+  right: 75px;
+}
+.bismosr{
+  display: flex; 
+  justify-content: center;
+   margin-left: 0px;
+    flex-direction: column;
+
+}
+.morbusines1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.markakimligi {
+  font-family: "Monument Extended", sans-serif !important;
+  font-size: 40px !important;
+  color: #183B56; font-weight: 700;
+    line-height: 50px;
+}
+.digitalpazarlama {
+  display: flex;
+  justify-content: space-between;
+}
+.businessmall {
+  width: 500px;
+  margin-top: 0px;
+}
+.morbusinesbutton {
+  display: flex;
+  justify-content: space-between;
+}
+.morbusinesbutton1 {
+  background: #ffc239 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  border: 1px solid #ffc239;
+  padding: 10px 50px;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+.businfont{
+  color: #0069F0; 
+  font-weight: 600;
+
+}
+.morbusinesbutton1:active {
+  background: #ffc239;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+.growbig{
+  color: #5A7184;
+   font-size: 13px;
+
+}
+.digpazlav{
+  color: #183B56; 
+  font-weight: 600;
+
+}
+.motbistur{
+  color: #5A7184;
+   font-size: 13px;
+
+}
+.morbusinesbutton2 {
+  background: white 0% 0% no-repeat padding-box;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  padding: 10px 45px;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+.morbusinesbutton2:active {
+  background: white 0% 0% no-repeat padding-box;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  padding: 9px 44px;
+  text-align: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.z {
+  font-family: San Francisco !important;
+  color: #5a7184;
+}
+.markakimlikimgkewarg {
+  display: none;
+}
+
+/* PİAR */
+.moradam54 {
+  display: none;
+}
+.piar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 75px;
+}
+.reklamyönetimi {
+  border: 1px solid #fd4e23;
+  border-radius: 25px 0px 0px 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #fd4e23;
+}
+.reklamyönetimi1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.reklamyönetimi2 {
+  font-family: San Francisco !important;
+  color: #fff457;
+}
+.detaylarıgör {
+  border-radius: 6px;
+  background-color: white;
+  color: #000000;
+  padding: 13px 40px;
+}
+.detaylarıgör:hover {
+  text-decoration: none;
+}
+.piarparagraf {
+  font-family: San Francisco !important;
+}
+
+/* <!-- 360Digital Hizmetler --> */
+.ucyuzaltmıs {
+  margin-bottom: 75px;
+}
+.Hizmetler {
+  display: flex;
+}
+.kurgumontaj {
+  font-family: San Francisco !important;
+}
+.dirrock{
+  align-items: center; 
+  display: flex;
+   flex-direction: column;
+
+}
+.hizmetyönetimdivhead203 {
+  display: none !important;
+}
+.videoProduksiyon {
+  display: flex;
+  flex-direction: column;
+  background-color: #40239f;
+  border-radius: 25px 0px 0px 25px;
+  padding-top: 50px;
+}
+.ladysif{
+  color: #00EFD1;
+  font-size: 25px;
+
+}
+.hizmetyönetim {
+  display: none;
+}
+.hizmetlink {
+  display: flex;
+  justify-content: space-between;
+}
+.hizmetlinkA {
+  width: 18px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.digitalimgborder {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 200px;
+  height: 40px;
+  justify-content: start;
+  color: white;
+}
+.digitalimgborder:hover {
+  text-decoration: none;
+  color: white;
+}
+.hizmetlerparagraf {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.Dijitalhead {
+  font-size: 40px;
+  color: #0d152e;
+  font-weight: 500;
+  margin-bottom: 33px;
+  font-family: "Monument Extended", sans-serif !important;
+}
+
+/* <!-- GÖRSELTASAARIM --> */
+.gorselimg {
+  width: 450px;
+  object-fit: contain;
+}
+.moaradm565 {
+  display: none;
+}
+.gorseltasarim {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+.gorseltasarimimages {
+  margin-left: 60px;
+}
+.brg {
+  display: none;
+}
+
+.ideaparagraf {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: San Francisco !important;
+}
+.idealinka {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid rgb(196, 196, 196);
+  width: 200px;
+  align-items: center;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  padding: 5px 5px;
+  color: black;
+}
+.idealinka:hover {
+  text-decoration: none;
+}
+.tasarimimages1 {
+  width: 30px;
+}
+.logotasarimi11 {
+  font-family: San Francisco !important;
+  font-weight: 600;
+  font-size: 15px;
+}
+.tasarimimages2 {
+  width: 30px;
+  margin-left: 15px;
+}
+.logotasarimi22 {
+  font-family: San Francisco !important;
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.tasarimimages3 {
+  width: 30px;
+}
+.logotasarimi33 {
+  font-family: San Francisco !important;
+  margin-right: 12px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.tasarimimages4 {
+  width: 30px;
+}
+.logotasarimi44 {
+  font-family: San Francisco !important;
+  margin-right: 12px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.ideaimages {
+  flex-direction: row;
+  display: flex;
+}
+.Gorselparagraf101{
+  color: #1565D8; 
+  font-size: 22px; 
+  font-family: San Francisco !important;
+
+}
+
+/* <!-- HOSTİKİ --> */
+
+.HostikiHead {
+  border-radius: 25px;
+  background-color:  #021074;
+}
+.HostikiLead {
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Hostikimg {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.afewimage {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.customer {
+  font-size: 16px !important;
+  font-family: San Francisco !important;
+}
+
+/* <!-- WEBTASARIM --> */
+
+.webas {
+  background-color: #f9fafd;
+  height: 900px;
+}
+.imgbackground {
+  position: relative;
+  display: flex;
+  background-image: url(assets/dijital-hiz/webtasarim/arka_mor@2x.png);
+  object-fit: cover;
+  background-size: 110%;
+  background-repeat: no-repeat;
+
+  background-position: -30px 450px;
+  padding-top: 0px;
+  width: 100%;
+  padding-bottom: 350px;
+}
+.backgroundsrenk {
+  padding-top: -550px;
+  background: linear-gradient(90deg, #da0404 0%, rgb(212, 18, 18) 50%);
+  z-index: -1;
+}
+
+.webpagesis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.webbuton {
+  padding: 15px 55px;
+  background-color: #416ff4;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.webbuton:hover {
+  padding: 15px 55px;
+  background-color: #416ff4;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.webparagraf {
+  font-size: 32px;
+  font-weight: 500;
+  color: #0D152E;
+  line-height: 35px;
+  font-family: "Monument Extended", sans-serif !important;
+}
+
+/* <!-- CARD --> */
+.cardhead {
+  background-image: url(assets/blog/bg_blog@2x.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.norm{
+  color: #7B8591;
+   font-size: 13px;
+   font-family: San Francisco !important;
+  
+}
+.Moradadmakademi {
+  font-family: "Monument Extended", sans-serif !important;
+  font-weight: 500;
+  font-size: 25px;
+}
+.cardLead {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 300px;
+  height: 430px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+/* <!-- MOADAMHELP --> */
+
+.helparagraf {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: San Francisco !important;
+}
+.r {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #d2d2d2;
+}
+.helpparagraf2 {
+  padding-top: 20px;
+  justify-content: space-between;
+  font-family: San Francisco !important;
+}
+.hepllink {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.hepllink:hover {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+.footerimg {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}
+.footerButton {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  text-align: center;
+  align-items: center;
+}
+.fa-search {
+  position: absolute;
+  right: 80px;
+  top: 14px;
+  color: white;
+  font-size: 14px;
+}
+.arr {
+  position: absolute;
+  right: 110px;
+  top: 35px;
+}
+.fa-sliders-h {
+  font-size: 21px;
+  border: none;
+}
+
+.divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-bottom: 1px solid gray;
+}
+.btnyeni {
+  background-color: #1199fa;
+  border-radius: 5px;
+  width: 80px;
+  padding: 1px 10px 1px 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+}
+.footerlineparagraf {
+  font-family: San Francisco !important;
+  font-size: 15px;
+  opacity: 0.9;
+}
+.footericon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerfoot {
+  background-color: #1a1723;
+}
+.footeraltfoot {
+  background-color: #0f0e14;
+}
+.footerparagraffoot {
+  width: 400px;
+  height: 20px;
+  padding-top: 3px;
+  font-family: San Francisco !important;
+  font-weight: 400;
+}
+.footerlink {
+  color: #1199fa;
+  text-decoration: none;
+}
+.footerlink:hover {
+  color: #1199fa;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.arrowimg {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.footerafoot {
+  background-color: #1199fa;
+}
+.footeraltfoot {
+  background-color: #0f0e14;
+}
+.footerButton {
+  background-color: white;
+  font-family: San Francisco !important;
+  color: #000000;
+}
+.footerButton:hover {
+  font-family: San Francisco !important;
+  background-color: white;
+  color: #000000;
+  text-decoration: none;
+}
+
+.retake {
+  font-family: San Francisco !important;
+}
+.Yazilim {
+  font-family: San Francisco !important;
+}
+.Digitalitem {
+  font-family: San Francisco !important;
+}
+.businfootbusinnet {
+  font-family: San Francisco !important;
+}
+.untake {
+  font-family: San Francisco !important;
+}
+
+.te {
+  font-family: San Francisco !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  /* HEADER VE NAVBAR */
+  .navfirts {
+    background-image: url(assets/slider-bg.png);
+    color: white;
+    display: block;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+
+    height: 600px;
+  }
+  .xldayoket {
+    display: none;
+  }
+  .liststyle {
+    display: none;
+  }
+  .bidblock {
+    display: block;
+  }
+  .rca {
+    margin-right: 15px;
+  }
+  #uls {
+    visibility: visible !important;
+  }
+  .exit {
+    display: none;
+  }
+  .timesalink {
+    display: none;
+  }
+  .hanburg {
+    display: none;
+  }
+  .navfootalt {
+    display: none !important;
+  }
+  .user {
+    display: none;
+  }
+
+  .Zirve {
+    display: none !important;
+  }
+  .navbarimg {
+    display: none;
+  }
+
+  .Zirve {
+    display: none !important;
+  }
+  /* <!-- CARD1BODY --> */
+  .card1head {
+    height: 900px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .cardheadimgdestroy {
+    display: none;
+  }
+  .assetscard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* SLİDER */
+  .sliderlinka {
+    font-size: 18px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .sliderlinka:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 187, 0);
+  }
+
+  .sirabuluculinkLead {
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    margin-right: 15px;
+  }
+  .sirabuluculinkLead {
+  }
+  .sirabulucuimgfont {
+  }
+
+  .sirabulucuimgfont {
+    margin-left: 10px;
+    text-align: start;
+  }
+  .slideryoketbigboy {
+    display: none !important;
+  }
+  /* <!-- MORADAM BUSINESS --> */
+  .markakimlikimg {
+    width: 480px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  .businessmall {
+    margin-left: 10px;
+  }
+  .destroyerbrbr {
+    display: none;
+  }
+  .potansiyelyoket {
+    display: none;
+  }
+
+  /* PİAR */
+  .piar {
+  }
+  .piarparagraf {
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+  }
+  .reklamyönetimi2 {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  /* <!-- 360Digital Hizmetler --> */
+  /* .dj{
+    margin-bottom: 175px;
+  } */
+
+  /* FOOTER */
+
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .foofight {
+    width: 800px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .Digitalitem {
+    margin-right: 20px;
+  }
+  .toot {
+    display: none;
+  }
+  .Yazilim {
+    margin-right: 40px;
+  }
+  .retake {
+    margin-left: 130px;
+  }
+  .footermean {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .untake {
+    display: none;
+  }
+  .digitalimgborder {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* HEADER VE NAVBAR */
+  .cap {
+    display: none;
+  }
+  .xldayoket {
+    display: none;
+  }
+  .liststyle {
+    display: none;
+  }
+  .bidblock {
+    display: block;
+  }
+
+  .businesshead {
+    margin-top: 5px;
+  }
+  .navfirts {
+    background-image: url(assets/slider-bg.png);
+    color: white;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
+
+  .navfontsize {
+    font-size: 14px;
+  }
+  .exit {
+    display: none;
+  }
+  .timesalink {
+    display: none;
+  }
+  .hanburg {
+    display: none;
+  }
+  .navfootalt {
+    display: none !important;
+  }
+  .user {
+    display: none;
+  }
+
+  #uls {
+    visibility: visible !important;
+  }
+
+  .Zirve {
+    display: none !important;
+  }
+  .navbarimg {
+    display: none;
+  }
+
+  .girisyap {
+    margin-bottom: 12px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .teklifiste {
+    border: 1px solid #40239e;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #40239e;
+    font-size: 14px;
+  }
+
+  /* <!-- CARD1BODY --> */
+  .card1head {
+    height: 800px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .cardheadimgdestroy {
+    display: none;
+  }
+  .assetscard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* SLİDER */
+  .sliderlead {
+    background-image: url(assets/arkakisim2@2x.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    padding: 50px 0px 50px 0px;
+    background-position: 140px 360px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .sliderlinklead {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .i {
+    display: flex;
+    flex-direction: column;
+  }
+  .sliderlinka {
+    margin-left: 0px;
+    width: 200px;
+  }
+  .sliderlinka:hover {
+    margin-left: 0px;
+    opacity: 0.6;
+  }
+  .itemler {
+    margin-bottom: 50px;
+  }
+  .itemheads {
+    margin-bottom: 20px;
+  }
+
+  .sirabuluculinkLead {
+    margin-top: -400px;
+    width: 360px;
+  }
+  .sirabulucuimgfont {
+    text-align: center;
+    width: 280px !important;
+    margin-left: 25px;
+  }
+
+  .sirabuluculink1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    height: 44px;
+    width: 150px;
+    color: #000000;
+  }
+  .Data1 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg1 {
+    width: 25px;
+  }
+  .sirabuluculink2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 200px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data2 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg2 {
+    width: 20px;
+  }
+  .sirabuluculink3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #dedede;
+    padding-left: 5px;
+
+    width: 150px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data3 {
+    margin-left: 9px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg3 {
+    width: 23px;
+    margin-left: 7px;
+  }
+  .sirabuluculink4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 200px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data4 {
+    font-size: 14px;
+    margin-right: 7px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+
+  .sirabuluculink5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 230px;
+    height: 44px;
+
+    color: #000000;
+  }
+  .Data5 {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .Dataimg5 {
+    background-color: black;
+    border-radius: 15px;
+    width: 20px !important;
+  }
+  .sirabuluculink6 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 200px;
+    height: 44px;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .Data6 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg6 {
+    width: 25px !important;
+    background-color: red;
+  }
+  .sirabulucuimgfont {
+    margin-left: 50px !important;
+  }
+  .slideryoketbigboy {
+    display: none !important;
+  }
+
+  /* .<!-- MORADAM BUSINESS -->{ */
+
+  .markakimlikimg {
+    width: 500px !important;
+    position: relative;
+    left: 5px;
+  }
+  .destroy {
+    display: none;
+  }
+  .businessmall {
+    margin-left: 10px;
+  }
+  .sliderlinklead {
+    display: flex;
+    justify-content: space-between;
+  }
+  .potansiyelyoket {
+    display: none;
+  }
+
+  /* PİAR */
+  .piarparagraf {
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .reklamyönetimi {
+    border: 1px solid #fd4e23;
+    border-radius: 25px 0px 0px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .reklamyönetimi2 {
+    text-align: left;
+    font-size: 25px;
+  }
+
+  /* <!-- 360Digital Hizmetler --> */
+  .Hizmetler {
+    display: flex;
+  }
+  .videoProduksiyon {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 25px 0px 0px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    padding-top: 0px;
+  }
+  .hizmetyöneticisi1 {
+    width: 350px;
+    height: 400px;
+  }
+  .hizmetlink {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hizmetlinkA {
+    width: 18px;
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  .digitalimgborder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 200px;
+    height: 40px;
+    justify-content: start;
+    color: white;
+    margin-right: 20px;
+  }
+  .digitalimgborder:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .hizmetlerparagraf {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+  }
+  .brg {
+    display: none;
+  }
+
+  .ideaparagraf {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .tasarimimages {
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  .ideaimages {
+    flex-direction: row;
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  /* <!-- CARD --> */
+  .cardhead {
+    background-image: url(assets/blog/bg_blog@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  /* FOOTER */
+
+  .fotbir {
+    display: none;
+  }
+
+  .foofight {
+    width: 800px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Digitalitem {
+    margin-right: 20px;
+  }
+  .toot {
+    display: none;
+  }
+  .Yazilim {
+    margin-right: 20px;
+  }
+  .retake {
+    margin-left: 80px;
+  }
+  .footermean {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .untake {
+    display: none;
+  }
+
+  .te {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footerButton {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .arr {
+    position: absolute;
+    right: 410px;
+    top: 35px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+  /* HEADER VE NAVBAR */
+
+  .cap {
+    display: none;
+  }
+  .xldayoket {
+    display: flex;
+  }
+  .liststyle {
+    display: flex;
+  }
+  .bidblock {
+    display: none;
+  }
+
+  .navfirts {
+    background-image: url(assets/slider-bg.png);
+    color: white;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
+  .hanburg {
+    position: relative;
+    bottom: 580px;
+    left: 470px;
+    font-size: 25px;
+  }
+
+  .mainheadsayfa {
+    position: relative;
+    bottom: 570px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .teklifiste {
+    display: none;
+  }
+
+  /* ////////////////////// */
+  .visiter {
+    position: relative;
+    bottom: 24px;
+    font-size: 12px;
+    color: #c1b8e1;
+  }
+  .sayi {
+    position: relative;
+    bottom: 3px;
+  }
+  .basak {
+    object-fit: contain;
+
+    width: 25px;
+  }
+  .Zirve {
+    position: relative;
+    bottom: 1220px;
+  }
+
+  .liststyle {
+    position: relative;
+    bottom: 81px;
+    float: left;
+    left: 47px;
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .busines1paragraf {
+    font-family: San Francisco !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .busines2paragraf {
+    display: none;
+  }
+  .cap {
+    display: none;
+  }
+  .teklifiste {
+    display: none;
+  }
+  .businesshead {
+    position: relative;
+    bottom: 1200px;
+  }
+
+  .businessimghead {
+    display: flex;
+    flex-direction: row;
+  }
+  /* ///////////////////// */
+
+  #uls {
+    visibility: hidden;
+    padding: 200px 0px 430px 0px;
+    width: 460px;
+    left: 215px;
+    top: -120px;
+    position: relative !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: #40219a;
+    z-index: 99 !important;
+    box-shadow: 0px 0px 100px 800px rgb(0, 0, 0, 0.7);
+  }
+
+  .exit {
+    color: white;
+  }
+  .exit:hover {
+    color: white;
+  }
+  .timesalink {
+    position: relative;
+    right: -250px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .navfootalt {
+    font-size: 14px;
+    color: #b89fff;
+  }
+  .Zirve {
+    display: none;
+  }
+  .nav-item {
+    margin: 10px 0px 0px 30px;
+  }
+  .nav-item a {
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding: 10px 0px 20px 0px;
+  }
+  .user {
+    font-size: 16px;
+  }
+  .nav-items {
+    margin: 10px 0px 0px 30px;
+  }
+  .girisyap {
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 700;
+    width: 200px;
+    height: 45px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 0px;
+  }
+
+  /* CARD1BODY */
+  .klk {
+    display: none;
+  }
+  .bryoket {
+    display: block;
+  }
+  .vnv {
+    display: none;
+  }
+  .cardheadimg3 {
+    display: none;
+  }
+  .cardheadimg3 {
+    display: none;
+  }
+  .card1head {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .cardheadimgdestroy {
+    width: 500px;
+  }
+  .cardleadestroyimg {
+    position: relative;
+    right: 58px;
+  }
+  .assetscard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .card1head {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  /* SLİDER */
+
+  .sirabuluculinkLead {
+  }
+  .sirabuluculukhead {
+    display: flex;
+  }
+  .sirabuluculinkLead {
+    align-items: center;
+
+    float: left !important;
+    margin-top: 0px;
+    display: flex;
+    margin-top: 20px;
+    width: 700px;
+    flex-direction: column;
+    justify-content: space-between !important;
+  }
+  .sliderlinklead {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .i {
+    display: flex;
+    flex-direction: column;
+  }
+  .itemheads {
+    margin-bottom: 20px;
+  }
+  .sliderlinka {
+    margin-left: 0px;
+  }
+  .sliderlinka {
+    margin-left: 0px;
+  }
+  .sliderlinka:hover {
+    margin-left: 0px;
+    opacity: 0.6;
+  }
+
+  .carouselslide {
+  }
+  .sliderlinklead {
+    width: 700px;
+
+    margin-top: 0px;
+  }
+
+  .sirabuluculink1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    margin-right: 20px;
+    height: 44px;
+    width: 170px;
+    color: #000000;
+  }
+  .Data1 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg1 {
+    width: 25px;
+  }
+  .sirabuluculink2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 220px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data2 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg2 {
+    width: 20px;
+  }
+  .sirabuluculink3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #dedede;
+    padding-left: 5px;
+    margin-right: 20px;
+    width: 170px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data3 {
+    margin-left: 9px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg3 {
+    width: 23px;
+    margin-left: 7px;
+  }
+  .sirabuluculink4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 220px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data4 {
+    font-size: 14px;
+    margin-right: 7px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+
+  .sirabuluculink5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 220px;
+    height: 44px;
+    margin-right: 20px;
+
+    color: #000000;
+  }
+  .Data5 {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .Dataimg5 {
+    background-color: black;
+    border-radius: 15px;
+    width: 20px !important;
+  }
+  .sirabuluculink6 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 190px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data6 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg6 {
+    width: 25px !important;
+    background-color: red;
+  }
+  .slideryoketbigboy {
+    display: none !important;
+  }
+
+  /* <!-- MORADAM BUSINESS --> */
+  .morbusines1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .destroyerbrbr {
+    display: none;
+  }
+  .businessmall {
+    margin-top: 20px;
+  }
+  .businfont {
+    font-size: 15px;
+  }
+  .markakimligi {
+    font-size: 35px !important;
+  }
+  .markakimlikimg {
+    width: 600px !important;
+    position: relative;
+    left: 5px;
+  }
+  .potansiyelyoket {
+    display: none;
+  }
+
+  /* PİAR */
+  .reklamyönetimi {
+    border: 1px solid #fd4e23;
+    border-radius: 25px 0px 0px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .piarparagraf {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+  .reklamyönetimi2 {
+    text-align: left;
+    font-size: 25px;
+  }
+
+  /* <!-- 360Digital Hizmetler --> */
+  .Hizmetler {
+    display: flex;
+  }
+  .videoProduksiyon {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    padding-top: 0px;
+  }
+  .hizmetlink {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hizmetlinkA {
+    width: 18px;
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  .digitalimgborder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 200px;
+    height: 40px;
+    justify-content: start;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .digitalimgborder:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .hizmetlerparagraf {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+  }
+  .hizmetyöneticisi {
+    display: none;
+  }
+  .brg {
+    display: none;
+  }
+
+  .ideaparagraf {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .tasarimimages {
+    margin-bottom: 10px;
+    width: 180px;
+  }
+  .ideaimages {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* <!-- HOSTİKİ --> */
+
+  .HostikiHead {
+    border-radius: 25px;
+  }
+  .HostikiLead {
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Hostikimg {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+  }
+  .afewimage {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .customer {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .iphoneimgs {
+    width: 180px;
+  }
+  .afewimageses {
+    width: 60px;
+  }
+  .besthosting {
+    font-size: 13px;
+  }
+  .brhost {
+    display: none;
+  }
+
+  /* <!-- WEBTASARIM --> */
+  .imgbackground {
+    display: flex;
+    background-image: none;
+    object-fit: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -20px 500px;
+    width: 100%;
+  }
+  .webpagesis {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+  .webmanagerimg1 {
+    width: 550px;
+  }
+
+  /* <!-- CARD --> */
+  .cardhead {
+    background-image: url(assets/blog/bg_blog@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .cardLead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Moradadmakademi {
+    font-size: 32px;
+  }
+  .cardhedparagraf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .blogarrow {
+    margin-bottom: 20px;
+  }
+  /* FOOTER */
+
+  .footerButton {
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .fotbir {
+    display: none;
+  }
+  .foofight {
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Digitalitem {
+    margin-right: 30px;
+  }
+  .toot {
+    display: none;
+  }
+  .retake {
+    margin-right: 30px;
+  }
+  .footermean {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .untake {
+    display: none;
+  }
+  .te {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arr {
+    position: absolute;
+    right: 290px;
+    top: 35px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* HEADER VE NAVBAR */
+  .navfirts {
+    background-image: url(assets/slider-bg.png);
+    color: white;
+    display: block;
+
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 67%;
+  }
+  .xldayoket {
+    display: flex;
+  }
+  .liststyle {
+    display: flex;
+  }
+  .bidblock {
+    display: none;
+  }
+
+  .visiter {
+    position: relative;
+    bottom: 24px;
+    font-size: 12px;
+    color: #c1b8e1;
+  }
+  .sayi {
+    position: relative;
+    bottom: 3px;
+  }
+  .basak {
+    object-fit: contain;
+
+    width: 25px;
+  }
+  .Zirve {
+    position: relative;
+    bottom: 1220px;
+  }
+
+  .liststyle {
+    position: relative;
+    bottom: 81px;
+    float: left;
+    left: 47px;
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .busines1paragraf {
+    font-family: San Francisco !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .busines2paragraf {
+    display: none;
+  }
+  .cap {
+    display: none;
+  }
+  .teklifiste {
+    display: none;
+  }
+  .businesshead {
+    position: relative;
+    bottom: 1200px;
+  }
+
+  .businessimghead {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mainheadsayfa {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .exit {
+    color: white;
+  }
+  .exit:hover {
+    color: white;
+  }
+  .timesalink {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .timesalink:hover {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .navfootalt {
+    font-size: 14px;
+    color: #b89fff;
+  }
+
+  .nav-item {
+    margin: 10px 0px 0px 30px;
+  }
+  .nav-item a {
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding: 10px 0px 20px 0px;
+  }
+  .user {
+    font-size: 16px;
+  }
+  .nav-items {
+    margin: 10px 0px 0px 30px;
+  }
+  .girisyap {
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 700;
+    width: 200px;
+    height: 45px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 0px;
+  }
+  #uls {
+    visibility: hidden;
+    padding: 100px 0px 430px 0px;
+    width: 400px;
+    left: 245px;
+    top: -120px;
+    position: relative !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: #40219a;
+    z-index: 99 !important;
+    box-shadow: 0px 0px 100px 500px rgb(0, 0, 0, 0.7);
+  }
+
+  /* CARD1BODY */
+  .klk {
+    display: none;
+  }
+  .bryoket {
+    display: block;
+  }
+  .vnv {
+    display: none;
+  }
+
+  .cardheadimg3 {
+    display: none;
+  }
+  .cardheadimg3 {
+    display: none;
+  }
+  .card1head {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .cardheadimgdestroy {
+    width: 500px;
+  }
+  .cardleadestroyimg {
+    position: relative;
+    right: 60px;
+  }
+  .assetscard {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* SLİDERHEAD */
+
+  .sliderlead {
+    background-image: url(assets/arkakisim2@2x.png) !important;
+    background-repeat: no-repeat;
+    background-size: 0px;
+
+    width: 100%;
+  }
+
+  .sliderlinklead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    flex-direction: column;
+  }
+  .i {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .itemler {
+    font-size: 30px !important;
+  }
+
+  .sliderlinka {
+    margin-left: 0px;
+    font-size: 22px;
+    width: 275px;
+    text-align: center;
+  }
+
+  .sliderlinka:hover {
+    font-size: 23px;
+    margin-left: 0px;
+    color: black;
+
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  .sirabuluculinkLead {
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+  }
+  .sirabuluculink1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    margin-right: 20px;
+    height: 44px;
+    width: 170px;
+    color: #000000;
+  }
+  .Data1 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg1 {
+    width: 25px;
+  }
+  .sirabuluculink2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 220px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data2 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg2 {
+    width: 20px;
+  }
+  .sirabuluculink3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #dedede;
+    padding-left: 5px;
+    margin-right: 20px;
+    width: 170px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data3 {
+    margin-left: 9px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg3 {
+    width: 23px;
+    margin-left: 7px;
+  }
+  .sirabuluculink4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 220px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data4 {
+    font-size: 14px;
+    margin-right: 7px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+
+  .sirabuluculink5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 220px;
+    height: 44px;
+    margin-right: 20px;
+
+    color: #000000;
+  }
+  .Data5 {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .Dataimg5 {
+    background-color: black;
+    border-radius: 15px;
+    width: 20px !important;
+  }
+  .sirabuluculink6 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 190px;
+    height: 44px;
+    color: #000000;
+  }
+  .Data6 {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  .Dataimg6 {
+    width: 25px !important;
+    background-color: red;
+  }
+  .bodysliderarrow1 {
+    display: none;
+  }
+  .bodysliderarrow2 {
+    display: none;
+  }
+  .slideryoketbigboy {
+    display: none !important;
+  }
+  /* <!-- MORADAM BUSINESS --> */
+  .morbusines1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .destroyerbrbr {
+    display: none;
+  }
+
+  .markakimlikimg {
+    width: 500px !important;
+    position: relative;
+    left: 5px;
+  }
+  .businessmall {
+    margin-top: 20px;
+  }
+  .businfont {
+    font-size: 15px;
+  }
+  .markakimligi {
+    font-size: 30px !important;
+  }
+  .potansiyelyoket {
+    display: none;
+  }
+  /* PİAR */
+
+  .reklamtöneticisi1 {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  .reklamyönetimi {
+    border: 1px solid #fd4e23;
+    border-radius: 25px 0px 0px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    margin-top: 0px;
+  }
+  .detaylarıgör {
+    width: 100px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 0px;
+  }
+  .piarparagraf {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  .reklamyönetimi2 {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  /* <!-- 360Digital Hizmetler --> */
+
+  .hizmetlinkA {
+    width: 16px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .digitalimgborder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 140px;
+    height: 30px;
+    justify-content: start;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  .digitalimgborder:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .hizmetlerparagraf {
+    font-size: 17px !important;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+  }
+  .hizmetyöneticisi {
+    display: none;
+  }
+
+  .Hizmetler {
+    display: flex;
+    margin-left: 0px;
+    justify-content: start;
+
+    width: 600px !important;
+  }
+  .Dijitalhead {
+    font-size: 28px;
+  }
+  .videoProduksiyon {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    padding-top: 0px;
+    margin-left: 30px;
+  }
+  .hizmetlink {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hizmetlinkA {
+    width: 120px;
+  }
+  .hizmetlerparagraf {
+    width: 450px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+  }
+  .hizmetyöneticisi {
+    display: none;
+  }
+
+  /* <!-- GÖRSELTASAARIM --> */
+  .gorselimg {
+  }
+  .gorseltasarim {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .gorseltasarimimages {
+    margin-left: 30px;
+  }
+  .brg {
+    display: none;
+  }
+
+  .ideaparagraf {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .tasarimimages {
+    width: 200px;
+  }
+  .ideaimages {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  /* <!-- HOSTİKİ --> */
+
+  .HostikiHead {
+    border-radius: 25px;
+  }
+  .HostikiLead {
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Hostikimg {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .afewimage {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .customer {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .iphoneimgs {
+    width: 180px;
+  }
+  .afewimageses {
+    width: 50px;
+  }
+  .besthosting {
+    font-size: 13px;
+  }
+  .brhost {
+    display: none;
+  }
+
+  /* <!-- WEBTASARIM --> */
+  .imgbackground {
+    display: flex;
+    background-image: none;
+    object-fit: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -20px 500px;
+    width: 100%;
+  }
+  .webpagesis {
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .webmanagerimg1 {
+    width: 500px;
+  }
+
+  /* <!-- CARD --> */
+  .cardhead {
+    background-image: url(assets/blog/bg_blog@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .cardLead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .Moradadmakademi {
+    font-size: 30px;
+  }
+  .cardhedparagraf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .blogarrow {
+    margin-bottom: 20px;
+  }
+
+  /* <!-- MOADAMHELP --> */
+  .brhelp {
+    display: none;
+  }
+
+  /* FOOTER */
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foofight {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .untake {
+    display: none;
+  }
+
+  .te {
+    text-align: center;
+  }
+  .footerButton {
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .fotbir {
+    display: none;
+  }
+  .te {
+    margin-bottom: 20px;
+  }
+
+  .arr {
+    position: absolute;
+    right: 210px;
+    top: 35px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /* HEADER VE NAVBAR */
+  .xldayoket {
+    display: flex;
+  }
+  .liststyle {
+    display: flex;
+  }
+  .bidblock {
+    display: none;
+  }
+  .navfirts {
+    background-image: url(assets/slider-bg.png);
+    color: white;
+    display: block;
+
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 67%;
+  }
+  .busines1paragraf {
+    font-family: San Francisco !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .visiter {
+    position: relative;
+    bottom: 24px;
+    font-size: 12px;
+    color: #c1b8e1;
+  }
+  .sayi {
+    position: relative;
+    bottom: 3px;
+  }
+  .basak {
+    object-fit: contain;
+
+    width: 25px;
+  }
+
+  .liststyle {
+    position: relative;
+    bottom: 81px;
+    float: left;
+    left: 47px;
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+
+  .busines2paragraf {
+    display: none;
+  }
+  .cap {
+    display: none;
+  }
+  .teklifiste {
+    display: none;
+  }
+  .businesshead {
+    position: relative;
+    bottom: 1200px;
+  }
+
+  .businessimghead {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mainheadsayfa {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .exit {
+    color: white;
+  }
+  .exit:hover {
+    color: white;
+  }
+  .timesalink {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .timesalink:hover {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .navfootalt {
+    font-size: 14px;
+    color: #b89fff;
+  }
+  .Zirve {
+    position: relative;
+    bottom: 1220px;
+  }
+  .nav-item {
+    margin: 10px 0px 0px 30px;
+  }
+  .nav-item a {
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding: 10px 0px 20px 0px;
+  }
+  .user {
+    font-size: 16px;
+  }
+  .nav-items {
+    margin: 10px 0px 0px 30px;
+  }
+  .girisyap {
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 700;
+    width: 200px;
+    height: 45px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 0px;
+  }
+  #uls {
+    visibility: hidden;
+    padding: 100px 0px 430px 0px;
+    width: 400px;
+    left: 150px;
+    top: -120px;
+    position: relative !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: #40219a;
+    z-index: 99 !important;
+    box-shadow: 0px 0px 100px 500px rgb(0, 0, 0, 0.7);
+  }
+
+  /* CARD1BODY */
+  .klk {
+    display: block;
+  }
+  .bryoket {
+    display: block;
+  }
+  .vnv {
+    display: block;
+  }
+
+  .card1head {
+    width: 100%;
+    margin-left: 0px !important;
+    float: left !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cardheadimg3 {
+    display: none;
+  }
+  .simdibasla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bryoket {
+    display: none;
+  }
+  .simdibasla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+  }
+
+  .card1link {
+    width: 350px;
+    font-family: San Francisco !important;
+    color: white;
+    border: 1px solid;
+    padding: 11px 56px 11px 56px;
+    height: 45px;
+    background-color: #416ff4;
+    border-radius: 6px;
+    border: 1px solid #416ff4;
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  .card1link:hover {
+    width: 350px;
+    font-family: San Francisco !important;
+    color: white;
+    border: 1px solid;
+    padding: 11px 56px 11px 56px;
+    height: 45px;
+    background-color: #416ff4;
+    border-radius: 6px;
+    border: 1px solid #416ff4;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  .cardheadmainled {
+  }
+  .cardheadimg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .cardheadimg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px !important;
+  }
+  .assedcardalinkset {
+    display: flex;
+    justify-content: start !important;
+    width: 350px;
+    margin-left: 60px;
+  }
+  .assedcardalinkset:hover {
+    display: flex;
+    justify-content: start !important;
+    width: 350px;
+    margin-left: 60px;
+  }
+  .assetscard {
+    margin-left: 50px;
+  }
+  .cardfontmidsizefor {
+    margin-left: 50px;
+  }
+  .cardboslukdigitalvarlık {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1paragraf {
+    font-size: 20px;
+  }
+  .cardleadestroyimg {
+    width: 500px;
+    margin-left: 50px;
+  }
+  /* SLİDERLEAD */
+
+  .bodysliderarrow1 {
+    margin-right: 0px;
+  }
+  .bodysliderarrow2 {
+    margin-left: 0px;
+  }
+  .resimmarkadest {
+    display: none;
+  }
+  .sliderparagrafyoket {
+    display: block !important;
+  }
+  .sliderlead {
+    background-image: url(assets/arkakisim2@2x.png) !important;
+    background-repeat: no-repeat;
+    background-size: 0px;
+
+    width: 100%;
+  }
+  #slider1 {
+    background: white;
+  }
+  .carouselslide {
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0);
+  }
+
+  .sirabuluculinkLead {
+    align-items: center !important;
+    justify-content: center;
+    padding-left: 50px;
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sliderlinklead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sirabuluculink1 {
+    width: 150px;
+  }
+  .sırarow {
+    margin-left: 55px !important;
+  }
+
+  .i {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .itemler {
+    background: transparent linear-gradient(117deg, #c165e2 0%, #3877ec 100%) 0%
+      0%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 22px !important;
+    opacity: 0.9;
+  }
+  .sliderbuttondestroy {
+    display: none !important;
+  }
+  .sirabulucuimgfont {
+    display: none;
+  }
+
+  /* .sliderlinka {
+    margin-left: 0px;
+    font-size: 16px;
+    width: 275px;
+    text-align: center;
+    opacity: 0.9;
+  } */
+  .sliderlinka {
+    background: transparent linear-gradient(117deg, #c165e2 0%, #3877ec 100%) 0%
+      0%;
+
+    margin-left: 0px;
+    font-size: 16px;
+    width: 275px;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .sliderlinka:hover {
+    margin-left: 0px;
+    font-size: 16px;
+    width: 275px;
+    text-align: center;
+    opacity: 0.9;
+  }
+  .sirabuluculukhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 9px;
+  }
+
+  .sirabuluculink1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    height: 50px;
+    width: 350px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .Dataimg1 {
+    position: relative;
+    right: 18px;
+  }
+  .Data1 {
+    position: relative;
+    right: 40px;
+    font-weight: 500px;
+    opacity: 0.8;
+  }
+  .sirabuluculink2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 350px;
+    height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .Data2 {
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .sirabuluculink3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    padding-left: 20px;
+    width: 350px;
+    height: 50px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .Dataimg3 {
+    position: relative;
+    right: 30px;
+  }
+
+  .Data3 {
+    position: relative;
+    right: 68px;
+    font-weight: 500px;
+    opacity: 0.8;
+  }
+  .sirabuluculink4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 350px;
+    height: 50px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .Data4 {
+    margin-right: 7px;
+    font-weight: 500px;
+    opacity: 0.8;
+  }
+  .sirabuluculink5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 350px;
+    height: 50px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .Data5 {
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .Dataimg5 {
+    background-color: black;
+    border-radius: 15px;
+  }
+  .sirabuluculink6 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 350px;
+    height: 50px;
+    color: #000000;
+
+    margin-bottom: 20px;
+  }
+  .Data6 {
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .sirabuluculukhead {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 23px;
+    align-items: center;
+  }
+  .carouselslide {
+    margin-left: 8px;
+  }
+
+  /* <!-- MORADAM BUSINESS --> */
+  .morbusines1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .businessmall {
+    width: 470px;
+    margin-top: 0px;
+    margin-left: 45px;
+  }
+  .dvince {
+    width: 150px;
+  }
+  .itibarmenejer {
+    display: none;
+  }
+  .markaitibarmenejer {
+    display: none;
+  }
+  .dvince2 {
+    width: 150px;
+    margin-right: 70px;
+  }
+  .digitalpazarlama {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .morbusinesbutton2 {
+    padding: 10px 15px;
+    margin-right: 100px;
+  }
+  .morbusinesbutton1 {
+    padding: 10px 35px;
+    margin-right: 100px;
+  }
+  .businessmall {
+    /* margin-top: 20px; */
+  }
+  .businfont {
+    font-size: 15px;
+  }
+  .markakimlikimg {
+    width: 350px !important;
+    position: relative;
+  }
+  .markakimligi {
+    font-size: 25px !important;
+  }
+  .markakimlikimg {
+    width: 450px !important;
+    position: relative;
+    left: 5px;
+  }
+  .destroy {
+    display: none;
+  }
+  /* PİAR */
+
+  .reklamtöneticisi1 {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  .reklamyönetimi {
+    border: 1px solid #fd4e23;
+    border-radius: 25px 0px 0px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    margin-top: 0px;
+    padding-left: 10px;
+  }
+  .detaylarıgör {
+    width: 100px;
+    font-size: 10px !important;
+    text-decoration: none;
+    margin-bottom: 0px;
+  }
+  .piarparagraf {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  .reklamyönetimi2 {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  /* <!-- 360Digital Hizmetler --> */
+  .Hizmetler {
+    display: flex;
+    margin-left: 3px;
+    margin-bottom: 120px;
+  }
+  .videoProduksiyon {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 800px;
+    padding-top: 0px;
+  }
+  .hizmetlink {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .hizmetyönetim {
+    display: block;
+    border-radius: 25px;
+    width: 450px;
+    height: 400px;
+
+    margin-right: 1px;
+    object-fit: cover;
+  }
+  .hizmetlinkA {
+    width: 16px !important;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  .digitalimgborder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 350px;
+    height: 40px;
+    margin-left: 7px;
+    justify-content: start;
+    color: white;
+
+    font-size: 14px !important;
+    margin-bottom: 20px;
+  }
+  .kurgumontaj {
+    margin-left: 50px;
+  }
+  .digitalimgborder:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .hizmetlerparagraf {
+    width: 350px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 5px;
+  }
+  .hizmetyöneticisi {
+    display: none;
+  }
+
+  .Dijitalhead {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+
+  .gorseltasarim {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .gorselimg {
+    width: 450px;
+  }
+  .gorseltasarimimages {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .brg {
+    display: none;
+  }
+  .ideaparagraf {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .tasarimimages {
+    width: 170px;
+  }
+  .ideaimages {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  /* <!-- GÖRSELTASAARIM --> */
+  .gorseltasarimimages {
+    width: 340px;
+  }
+
+  .gorselimg {
+    width: 450px;
+    object-fit: contain;
+  }
+
+  .brg {
+    display: none;
+  }
+  .Gorselparagraf101 {
+    font-size: 16px !important;
+  }
+
+  .ideaparagraf {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: San Francisco !important;
+    margin-bottom: 30px;
+  }
+  .idealinka {
+    display: flex;
+    justify-content: start;
+    border: 1px solid rgb(196, 196, 196);
+    width: 350px;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    color: black;
+  }
+  .idealinka:hover {
+    text-decoration: none;
+  }
+  .tasarimimages1 {
+    width: 30px;
+    margin-left: 50px;
+  }
+  .logotasarimi11 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .tasarimimages2 {
+    width: 30px;
+    margin-left: 50px;
+  }
+  .logotasarimi22 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 50px;
+  }
+
+  .tasarimimages3 {
+    width: 30px;
+    margin-left: 50px;
+  }
+  .logotasarimi33 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  .tasarimimages4 {
+    width: 30px;
+    margin-left: 50px;
+  }
+  .logotasarimi44 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .ideaimages {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 0px;
+  }
+
+  /* <!-- HOSTİKİ --> */
+
+  .HostikiHead {
+    border-radius: 25px;
+  }
+  .HostikiLead {
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Hostikimg {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+  }
+  .afewimage {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .customer {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .iphoneimgs {
+    width: 180px;
+  }
+  .afewimageses {
+    width: 50px;
+  }
+  .besthosting {
+    font-size: 13px;
+  }
+  .brhost {
+    display: none;
+  }
+
+  /* <!-- WEBTASARIM --> */
+  .imgbackground {
+    display: flex;
+    background-image: none;
+    object-fit: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: -20px 500px;
+    width: 100%;
+  }
+  .webpagesis {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .webmanagerimg1 {
+    width: 450px;
+  }
+  .webparagraf {
+    font-size: 25px;
+  }
+
+  /* <!-- CARD --> */
+  .cardhead {
+    background-image: url(assets/blog/bg_blog@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .cardLead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .Moradadmakademi {
+    font-size: 26px;
+  }
+  .cardhedparagraf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .blogarrow {
+    margin-bottom: 20px;
+  }
+
+  /* <!-- MOADAMHELP --> */
+
+  .helparagraf {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .helpparagraf2 {
+    font-size: 14px;
+  }
+  /* FOOTER */
+
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerparagraffoot {
+    width: 290px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .footericon {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .footerButton {
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .fotbir {
+    display: none;
+  }
+  .te {
+    margin-bottom: 20px;
+  }
+
+  .untake {
+    display: none;
+  }
+  .foofight {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /* NAVBAR VE HEADER */
+
+  .businesshead {
+    position: relative;
+    bottom: 850px;
+  }
+  .navfirts {
+    position: relative;
+  }
+  .Zirve {
+    position: relative;
+    bottom: 880px !important;
+  }
+  .exit {
+    position: relative;
+    top: 50px;
+    right: 30px;
+  }
+  #uls {
+    visibility: hidden;
+    padding: 30px 0px 120px 0px !important;
+    width: 320px;
+    left: 80px;
+    top: -120px;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: #40219a;
+    z-index: 99 !important;
+    box-shadow: 0px 0px 100px 500px rgb(0, 0, 0, 0.7);
+  }
+  .ulsustu {
+    position: relative !important;
+    display: flex;
+    width: 85%;
+  }
+
+  /* SLİDER */
+  .i {
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+  .itemheads {
+    display: flex;
+    margin-top: 20px !important;
+
+    font-size: 10px !important;
+    margin-left: 0px !important;
+  }
+  .itemheads a {
+    font-size: 24px !important;
+    opacity: 0.8;
+  }
+  .sliderlinklead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sliderlinklead a {
+    opacity: 0.8;
+
+    font-size: 16px !important;
+  }
+
+  .bodysliderarrow1 {
+    margin-right: 0px;
+  }
+  .bodysliderarrow2 {
+    margin-left: 0px;
+  }
+  .resimmarkadest {
+    display: none;
+  }
+  .sliderparagrafyoket {
+    display: block !important;
+    text-align: center !important;
+    margin-left: 0px !important;
+  }
+  .sliderlead {
+    background-image: url(assets/arkakisim2@2x.png) !important;
+    background-repeat: no-repeat;
+    background-size: 0px;
+    width: 100%;
+    margin-bottom: -100px !important;
+  }
+  .corhead {
+    background-image: url("assets/tek@2x.png");
+    background-repeat: no-repeat;
+    background-position: 0px -33px;
+  }
+  .redser {
+    width: 100% !important;
+  }
+  /* .tek{
+    width: 450px;
+    display: block;
+    position: relative;
+    top: 155px !important;
+ 
+  } */
+  #slider1 {
+    background: white;
+  }
+  .carouselslide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    margin-left: 0px !important;
+
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0);
+  }
+
+  .sirabuluculinkLead {
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 50px;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .sliderlinklead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sirabuluculink1 {
+    width: 0px;
+  }
+
+  .i {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+  }
+
+  .itemler {
+    background: transparent linear-gradient(117deg, #c165e2 0%, #3877ec 100%) 0%
+      0%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-size: 30px !important;
+    opacity: 0.7 !important;
+  }
+  .sliderbuttondestroy {
+    display: none !important;
+  }
+  .sirabulucuimgfont {
+    display: none;
+  }
+
+  .sliderlinka {
+  }
+  .sliderlinka {
+    background: transparent linear-gradient(117deg, #c165e2 0%, #3877ec 100%) 0%
+      0%;
+
+    margin-left: 0px;
+    font-size: 22px;
+    width: 275px;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .sliderlinka:hover {
+    font-size: 23px;
+    margin-left: 0px;
+    color: black;
+
+    text-decoration: none;
+    border-bottom: none;
+  }
+  .sirabuluculukhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 0px !important;
+  }
+  #bahadır {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sirabuluculink1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    height: 50px;
+    width: 300px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .Dataimg1 {
+    position: relative;
+    right: 18px;
+  }
+  .Data1 {
+    position: relative;
+    right: 40px;
+    font-weight: 500px;
+    opacity: 0.8;
+  }
+  .sirabuluculink2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 300px;
+    height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .Data2 {
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .sirabuluculink3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    padding-left: 20px;
+    width: 300px;
+    height: 50px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .Dataimg3 {
+    position: relative;
+    right: 30px;
+  }
+
+  .Data3 {
+    position: relative;
+    right: 68px;
+    font-weight: 500px;
+    opacity: 0.8;
+  }
+  .sirabuluculink4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 300px;
+    height: 50px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .Data4 {
+    margin-right: 7px;
+    font-weight: 500px;
+    opacity: 0.8;
+  }
+  .sirabuluculink5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 300px;
+    height: 50px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .Data5 {
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .Dataimg5 {
+    background-color: black;
+    border-radius: 15px;
+  }
+  .sirabuluculink6 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #dedede;
+    width: 300px;
+    height: 50px;
+    color: #000000;
+
+    margin-bottom: 20px;
+  }
+  .Data6 {
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  .sliderleads {
+    width: 350px;
+  }
+  .ff {
+    object-fit: contain;
+    width: 280px;
+  }
+  .sirabuluculukhead {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 23px;
+    align-items: center;
+  }
+  .carouselslide {
+    margin-left: 8px;
+  }
+
+  /* <!-- CARD1BODY --> */
+  .card1head {
+    width: 100%;
+    margin-left: 0px !important;
+    float: left !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .klk {
+    display: none;
+  }
+  .onlyfont {
+    width: 300px;
+  }
+  .cardheadimg3 {
+    display: none;
+  }
+
+  .bryoket {
+    display: none;
+  }
+  .cardheadmainled {
+  }
+  .cardleadestroyimg {
+    width: 400px;
+    margin-left: 15px;
+  }
+  .cardheadimg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .cardheadimg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px !important;
+  }
+  .assedcardalinkset {
+    display: flex;
+    justify-content: start !important;
+    align-items: center;
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  .assedcardalinkset:hover {
+    display: flex;
+    justify-content: start !important;
+    align-items: center;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .assetscard {
+    margin-left: 35px;
+  }
+  .cardboslukdigitalvarlık {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1paragraf {
+    font-size: 20px;
+  }
+  .cardfontmidsizefor {
+    margin-left: 50px !important;
+  }
+  .card1img {
+    width: 170px;
+  }
+  .simdibasla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+  }
+  .card1link {
+    width: 305px;
+    text-align: center;
+    height: 50px;
+    margin-right: 5px;
+  }
+  .card1link:hover {
+    width: 305px;
+    text-align: center;
+    height: 50px;
+    margin-right: 5px;
+  }
+
+  /* <!-- MORADAM BUSINESS --> */
+  .morbusines1 {
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px !important;
+  }
+  .businessmall {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .dvince {
+    width: 150px;
+  }
+  .destroyerbrbr {
+    display: none;
+  }
+  .itibarmenejer {
+    display: none;
+  }
+  .markaitibarmenejer {
+    display: none;
+  }
+  .pmk {
+    margin-right: 25px;
+  }
+  .dvince2 {
+    margin-right: 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .digitalpazarlama {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .morbusinesbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .morbusinesbutton2 {
+    padding: 10px 8px;
+
+    margin-right: 0px;
+  }
+  .morbusinesbutton1 {
+    padding: 10px 35px;
+    margin-right: 0px;
+  }
+  .businessmall {
+    /* margin-top: 20px; */
+  }
+  .businfont {
+    font-size: 14px;
+  }
+  .markakimligi {
+    font-size: 23px !important;
+  }
+  .markakimlikimgkewarg {
+    display: block !important;
+    width: 420px;
+  }
+  .morbusinesimghead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .markakimlikimg {
+    display: none;
+    width: 350px !important;
+    position: relative;
+  }
+  .destroy {
+    display: none;
+  }
+  .dimgbigboy1 {
+    width: 38px;
+    margin-bottom: 10px;
+  }
+  .dimgbigboy2 {
+    width: 35px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+  }
+  /* <!-- GÖRSELTASAARIM --> */
+  .gorseltasarimimages {
+    width: 300px;
+    margin-bottom: -50px;
+  }
+
+  .gorselimg {
+    display: none;
+  }
+  .moaradm565 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .ref {
+    width: 420px;
+  }
+  .brg {
+    display: none;
+  }
+  .Gorselparagraf101 {
+    font-size: 16px !important;
+  }
+
+  .ideaparagraf {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: San Francisco !important;
+    margin-bottom: 30px;
+  }
+  .idealinka {
+    display: flex;
+    justify-content: start;
+    border: 1px solid rgb(196, 196, 196);
+    width: 300px;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    color: black;
+  }
+  .idealinka:hover {
+    text-decoration: none;
+  }
+  .tasarimimages1 {
+    width: 30px;
+    margin-left: 30px;
+  }
+  .logotasarimi11 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .tasarimimages2 {
+    width: 30px;
+    margin-left: 30px;
+  }
+  .logotasarimi22 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 50px;
+  }
+
+  .tasarimimages3 {
+    width: 30px;
+    margin-left: 30px;
+  }
+  .logotasarimi33 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  .tasarimimages4 {
+    width: 30px;
+    margin-left: 30px;
+  }
+  .logotasarimi44 {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .ideaimages {
+    flex-direction: column !important;
+    display: flex;
+    margin-bottom: 0px !important;
+  }
+
+  /* <!-- 360Digital Hizmetler --> */
+  .ucyuzaltmıs {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .ucyuzaltmısimg {
+    width: 350px;
+  }
+  .Hizmetler {
+    background-color: #40239f;
+    display: flex;
+    margin-bottom: -80px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .hizmetyönetimdivhead202 {
+    display: none !important;
+  }
+  .videoProduksiyon {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    border-radius: 26px 26px 0px 0px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 650px;
+  }
+  .hizmetlink {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .hizmetyönetimdivhead203 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .hizmetyönetim {
+    display: flex !important;
+    border-radius: 0px !important;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .hizmetlinkA {
+    width: 20px !important;
+  }
+  .digitalimgborder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 300px;
+    height: 40px;
+
+    justify-content: start;
+    color: white;
+
+    margin-right: 10px;
+    font-size: 14px !important;
+    margin-bottom: 20px;
+  }
+  .kurgumontaj {
+    margin-left: 50px;
+  }
+  .digitalimgborder:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .hizmetlerparagraf {
+    width: 300px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-left: 7px;
+  }
+  .hizmetyöneticisi {
+    display: none;
+  }
+
+  .Dijitalhead {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  /* <!-- GÖRSELTASAARIM --> */
+  .gorseltasarim {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .gorselimg {
+    width: 350px;
+  }
+  .gorseltasarimimages {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .brg {
+    display: none;
+  }
+  .ideaparagraf {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .tasarimimages {
+    width: 170px;
+  }
+  .ideaimages {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  /* <!-- HOSTİKİ --> */
+  .d {
+    background-color: #021074;
+  }
+
+  .HostikiHead {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .HostikiLead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Hostikimg {
+    margin-left: 70px;
+  }
+  .hostimg242 {
+    margin-left: 40px;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+  }
+  .customer {
+    width: 300px;
+    margin-right: 30px;
+    font-size: 20px !important;
+  }
+
+  .afewimageses {
+    margin-right: 25px !important;
+  }
+
+  /* PİAR */
+
+  .piar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fd4e23;
+    flex-direction: column;
+  }
+  .reklamtöneticisi1 {
+    display: none;
+  }
+  .reklamyönetimi2 {
+    margin-top: 20px;
+  }
+  .reklamtöneticisi {
+    width: 100% !important;
+  }
+  .moradam54 {
+    display: flex !important;
+    width: 100%;
+    object-fit: contain;
+  }
+  .reklamyönetimi1 {
+    position: relative;
+    margin-left: 0px !important;
+
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .piaryoket808 {
+    display: none !important;
+  }
+
+  .reklamyönetimi {
+    width: 100% !important;
+    border: 1px solid #fd4e23;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    border-radius: 0px !important;
+  }
+  .detaylarıgör {
+    width: 170px;
+    font-size: 14px !important;
+    font-weight: 500;
+    height: 50px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  .detaylarıgör:hover {
+    text-decoration: none;
+    width: 170px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 50px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  .piarparagraf {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+    color: white;
+  }
+  .reklamyönetimi2 {
+    text-align: left;
+    font-size: 20px;
+  }
+  /* WEBTASARIM*/
+  .webmanagerimg1 {
+    width: 400px;
+  }
+  .webparagrafhead {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .webbtnteklif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .webbuton {
+    width: 100% !important;
+    font-size: 17px;
+
+    padding: 11px 50px !important;
+    text-align: center;
+  }
+  .webbuton:hover {
+    width: 100% !important;
+    font-size: 17px;
+
+    padding: 11px 50px !important;
+    text-align: center;
+  }
+  /* CARD */
+  .cardhead {
+    margin-top: -70px;
+  }
+  .card {
+    height: 480px;
+  }
+  .blogarrow {
+    font-size: 23px !important;
+    font-weight: 600;
+  }
+  .blogarrow:hover {
+    text-decoration: none;
+  }
+  .arrowsmalbig {
+    width: 22px !important;
+  }
+  .Moradadmakademi {
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    font-size: 22px;
+  }
+  /* <!-- MOADAMHELP --> */
+  .helparagraf {
+    font-size: 18px;
+  }
+  /* FOOTER */
+  .footerimg {
+    margin-left: 40px;
+  }
+  .footerButton {
+    display: none !important;
+  }
+  .divider {
+    display: none !important;
+  }
+  .foofight {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .Digitalitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Yazilim {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .retake {
+    /* margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    display: none;
+  }
+  .untake {
+    /* margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    display: none;
+  }
+  .businfootbusinnet {
+    /* margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    display: none;
+  }
+  .footerparagraffoot {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .sadecesonboy {
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

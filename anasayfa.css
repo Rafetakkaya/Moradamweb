@@ -1,0 +1,3679 @@
+@import url("http://fonts.cdnfonts.com/css/monument-extended");
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("assets/fonts/sf-ui-display-ultralight-58646b19bf205.otf");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("assets/fonts/sf-ui-display-thin-58646e9b26e8b.otf");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("assets/fonts/SF-UI-Display.ttf");
+}
+
+/* HEADER VE NAVBAR */
+
+body {
+  overflow-x: hidden;
+}
+.girisyap {
+  margin-bottom: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+.rca {
+  font-family: San Francisco !important;
+}
+.teklifiste {
+  border: 1px solid #40239e;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  background-color: #40239e;
+  border: 1px solid white;
+}
+.navfirts {
+  background-image: url(images/BG1.png);
+  color: white;
+  object-fit: contain;
+  display: block;
+}
+
+#uls {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+select {
+  outline: none;
+  border: none;
+}
+.fleg {
+  width: 25px;
+  object-fit: contain;
+}
+.capslide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cap {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+}
+.fa-chevron-right {
+  font-size: 15px;
+}
+
+.anatoggle {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  font-size: 20px;
+}
+.cappar {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.headliner {
+  font-family: San Francisco !important;
+}
+.ptag1 {
+  font-family: San Francisco !important;
+  line-height: 25px !important;
+}
+/* <!-- NASILCALISIRIZ --> */
+.mobildead {
+  display: none !important;
+}
+.mobilicinimg {
+  display: none;
+}
+#prev {
+  position: absolute;
+  left: 1050px;
+  width: 15px;
+}
+#previ {
+  position: absolute;
+  left: 1030px;
+  width: 15px;
+}
+.iconstl {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+.zodyac{
+  color: #1565D8
+
+}
+.benzersizfont{
+  color: #000000;
+   font-weight: 700;
+
+}
+.wordgen{
+  font-size: 14px;
+
+}
+.videogen{
+  font-size: 14px;
+
+}
+.seogen{
+  font-size: 14px;
+
+}
+.hizmetgen{
+  font-size: 14px;
+
+}
+.tasarımgen{
+  font-size: 14px;
+
+}
+.specialgen{
+  font-size: 14px;
+
+}
+.worlpressgeliştirme{
+  font-size: 14px;
+
+}
+.tognav {
+  border: none;
+}
+.tognav:active > .hanburg {
+  border: none;
+
+  color: white;
+}
+
+.businesshead {
+  margin-top: 100px;
+  flex-direction: column;
+}
+.businesparagraf {
+  flex-direction: column;
+
+  display: flex;
+  width: 100%;
+}
+.busines1paragraf {
+  font-family: San Francisco !important;
+  color: #9074f2;
+  font-size: 25px;
+}
+
+.busines2paragraf {
+  font-family: San Francisco !important;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.businessimg1 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 60px;
+}
+.businessimg2 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 95px;
+}
+.businessimg3 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 100px;
+}
+.businessimg4 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 150px;
+}
+.businessimg5 {
+  object-fit: contain;
+  margin-right: 30px;
+  width: 90px;
+}
+.headbosluk {
+  margin-top: 30px;
+}
+.mainheadsayfa {
+  margin-bottom: 32px;
+}
+.navfontsize {
+  font-family: San Francisco !important;
+}
+/* <!-- WEBSİTESİTASARIMI --> */
+.websitefontsmaallicin{
+  color: #00EFD1;
+
+}
+.website721{
+  font-size: 20px;
+  color: white;
+
+}
+/* CARD1BODY */
+
+.klk {
+  display: none;
+}
+.bryoket {
+  display: none;
+}
+.vnv {
+  display: none;
+}
+.brandedntity {
+  color: #183b56;
+  font-weight: 700;
+}
+.mordadamparagraf1001 {
+  color: #000000;
+  font-weight: 600;
+}
+.aramamotoru101 {
+  color: #0d152e;
+}
+.xametri {
+  color: #81838c;
+  font-size: 14px;
+}
+.intheboard {
+  color: #81838c;
+  font-size: 14px;
+}
+.intheandbeing {
+  color: #81838c;
+  font-size: 14px;
+}
+.aramamotoru101 {
+  color: #0d152e;
+}
+
+.card1head {
+  background-color: #f9f9f9;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.moradamfondegistir {
+  font-family: San Francisco !important;
+}
+.mordadamparagraf1001 {
+  font-family: San Francisco !important;
+  opacity: 0.9;
+}
+.cardheadimg1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cardheadimg2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.cardheadimg3 {
+}
+.cardlead5img {
+  width: 800px;
+}
+.assedcardalinkset {
+  justify-content: space-evenly !important;
+  width: 195px;
+  padding: 8px 0px;
+  border: 1px solid white;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px rgba(82, 81, 81, 0.2);
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: black;
+}
+.assedcardalinkset:hover {
+  justify-content: space-evenly !important;
+  width: 195px;
+  padding: 8px 0px;
+  border: 1px solid white;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 1px rgba(82, 81, 81, 0.2);
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.assetscard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  vertical-align: middle !important;
+}
+
+.assetcardlike {
+  margin-bottom: 50px;
+}
+
+.card1link {
+  font-family: San Francisco !important;
+  color: white;
+  border: 1px solid;
+  padding: 11px 56px 11px 56px;
+  height: 60px;
+  background-color: #416ff4;
+  border-radius: 6px;
+  border: 1px solid #416ff4;
+  text-decoration: none;
+}
+.card1link:hover {
+  font-family: San Francisco !important;
+  color: white;
+  border: 1px solid;
+  padding: 11px 56px 11px 56px;
+  height: 60px;
+  background-color: #416ff4;
+  border-radius: 6px;
+  border: 1px solid #416ff4;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.card1link:active {
+  color: white;
+  border: 1px solid;
+  padding: 10px 45px 10px 45px;
+  background-color: #416ff4;
+  border-radius: 6px;
+  border: 1px solid #416ff4;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.card1paragraf {
+  color: #0d152e;
+  font-size: 40px;
+  font-family: "Monument Extended", sans-serif !important;
+}
+.card1img {
+  width: 265px;
+}
+.onlyfont {
+  font-family: San Francisco !important;
+  color: #5a7184;
+  margin-bottom: 40px;
+}
+.card1head {
+  background-color: white !important;
+}
+.head {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.headliner {
+  display: flex;
+
+  justify-content: center;
+}
+.ptag1 {
+  line-height: 15px;
+}
+
+.inputimg {
+  width: 80px;
+}
+#city {
+  border: none;
+}
+.bord {
+  width: 1004;
+  border: none;
+  border-right: 1px solid red;
+}
+#name {
+  width: 400px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.sectionparagarf1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 15px;
+  padding-top: 17px;
+}
+.sectionparagarf2 {
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  font-size: 11px;
+}
+
+.inputbutton {
+  position: relative;
+  background-color: indigo;
+  width: 120px;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+  color: white;
+  padding-left: 40px;
+}
+
+#collapse {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  height: 60px;
+}
+.formrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.inputbag {
+  background-color: white;
+  height: 60px;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.fa-map-marker-alt {
+  font-size: 19px;
+  color: blue;
+  margin-bottom: 4px;
+}
+.lokas {
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inputlead {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center !important;
+  align-items: center;
+  display: flex;
+}
+.inputhead {
+  display: flex;
+  height: 60px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: row;
+}
+
+.sectionclass {
+  position: relative;
+}
+.inputparagraf {
+  position: absolute;
+  color: #1b1d33;
+  top: 25px;
+  left: 17px;
+  font-size: 12px;
+}
+.crdbody {
+  display: flex;
+  margin-top: 50px;
+}
+.crttext {
+  margin-left: 100px;
+}
+.Moradambusines {
+  height: 100px;
+  margin-top: 60px;
+  padding-bottom: 50px;
+}
+.crttext2 {
+  margin-top: 140px;
+}
+.cardhead {
+  margin-top: 120px;
+}
+.cardhead2 {
+  margin-top: 60px;
+  margin-left: 0px;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.imgbusines {
+  object-fit: contain;
+  margin-bottom: 100px;
+  margin-right: 30px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 255, 0.3);
+  border-radius: 7px;
+}
+.imgbusines2 {
+  object-fit: contain;
+  float: left;
+  width: 17px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.cardbusines {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+}
+.imgcard2 {
+  float: left;
+}
+.crdbody2 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.mavihead {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 600px;
+  margin-bottom: 150px;
+}
+.mavi {
+  width: 100%;
+  height: 700px;
+}
+.logos {
+  position: absolute;
+  left: 600px;
+  top: -60px;
+  right: 0px;
+  width: 650px;
+}
+.classcontainer {
+  width: 1140px;
+  position: relative;
+  top: -630px;
+  right: 30px;
+}
+
+.card3button {
+  background-color: #00efd1;
+  width: 150px;
+  cursor: pointer;
+  height: 45px;
+  margin-top: 50px;
+  outline: aqua;
+  border: 1px solid aqua;
+  border-radius: 4px;
+  margin-left: 16px;
+  color: black;
+}
+.card3button:hover {
+  outline: aqua;
+  border: 1px solid aqua;
+  border-radius: 4px;
+
+  opacity: 0.2;
+}
+.card3button:active {
+  outline: aqua;
+  border: 1px solid aqua;
+  border-radius: 4px;
+
+  opacity: 0.6;
+}
+.cardparagraf3 {
+  margin-left: 50px;
+}
+
+.card3button {
+  background-color: aqua;
+  width: 150px;
+  cursor: pointer;
+  height: 45px;
+  margin-top: 50px;
+  outline: aqua;
+  border: 1px solid aqua;
+  border-radius: 4px;
+}
+.card3button:hover {
+  outline: aqua;
+  border: 1px solid aqua;
+  border-radius: 4px;
+
+  opacity: 0.6;
+}
+.card3button:active {
+  outline: aqua;
+  border: 1px solid aqua;
+  border-radius: 4px;
+
+  opacity: 0.6;
+}
+.crdrelative {
+  position: relative;
+  width: 100%;
+}
+.card3 {
+  margin-top: 100px;
+  background: linear-gradient(174deg, #1b1d33 75%, #ffffff 0);
+  width: 100%;
+}
+.sagalt {
+  position: absolute;
+  right: -395px;
+
+  bottom: 150px;
+  right: 0px;
+}
+.imgcard3 {
+  position: absolute;
+  top: 150px;
+  right: 70px;
+  width: 500px;
+}
+.checkbox {
+  display: flex;
+}
+
+.checkimg {
+  object-fit: contain;
+  width: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.logosmallicin {
+  display: none;
+}
+.bouredu{
+  color: #0D152E;
+
+}
+.pierre{
+  color: #183B56;
+
+}
+.googlecard4 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.googlecard4 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.goggleheaad {
+  text-align: center;
+  justify-content: center;
+}
+.googleadwords {
+  line-height: 40px;
+  margin-bottom: 70px;
+  color: #0D152E; 
+  font-size: 30px; 
+  font-weight: 700;
+}
+.prodimg {
+  object-fit: contain;
+  margin-left: 4px;
+}
+.aramagı {
+  margin-left: 1px;
+  text-align: center;
+  width: 235px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 1px rgba(122, 122, 122, 0.3);
+}
+
+.aramagısmalmodaramaagı {
+  display: none;
+}
+.paragraf4 {
+  padding-right: 90px;
+  font-size: 16px;
+  color: #5a7184;
+}
+.reklamhizmeti {
+  display: flex;
+  flex-direction: row;
+}
+.adworstext {
+  font-size: 16px;
+}
+.GoogleAdwords {
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #0d152e;
+  padding-top: 50px;
+  padding-left: 0px;
+}
+.onlineimgc{
+  display: flex; 
+  justify-content: center;
+   align-items: center;
+
+}
+.aramaagıfontsmalicin{
+  color: #0D152E;
+
+}
+.iconstyle {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.adworstext{
+  color: #5A7184;
+
+}
+.icon1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.iconstyle2 {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 37px;
+  height: 37px;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 255, 0.3);
+}
+.iconstylefont2 {
+  margin-top: 5px;
+  color: #0D152E; 
+  font-size:15px; 
+  font-weight: 500;
+}
+.smailicinreklamtürü{
+  color: #0D152E; font-size:15px; font-weight: 500;
+
+}
+.chapter6 {
+  position: relative;
+  display: flex;
+  background-color: blue;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 50px;
+}
+.imgban {
+  position: absolute;
+}
+
+.chapter6lead {
+  margin-top: 230px;
+  margin-right: 200px;
+
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.chapter6head {
+  display: flex;
+  padding-left: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #0D152E;
+   font-weight: 700;
+    font-size: 28px;
+}
+.chapter6paragraf {
+  display: flex;
+  padding-left: 0px;
+  text-align: left;
+  color: #81838c;
+  font-size: 15px;
+}
+.imghead {
+  display: flex;
+  flex-direction: column;
+}
+.imgbanner {
+  display: flex;
+  flex-direction: row;
+}
+.secondhead {
+  font-size: 40px;
+  line-height: 50px;
+  color: white;
+  font-weight: 600;
+}
+.secondheads {
+  font-size: 40px;
+  font-weight: 600;
+  background: transparent linear-gradient(129deg, #ffc81b 0%, #ff921b 100%) 0%
+    0% no-repeat padding-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.head6 {
+  margin-top: 50px;
+}
+.headparagraf6 {
+  margin-bottom: 50px;
+
+  padding-top: 100px;
+}
+.cemre6 {
+  display: flex;
+  flex-direction: row;
+}
+.papel {
+  height: 773px;
+  width: 720px;
+  object-fit: cover;
+}
+.drag {
+  width: 720px;
+  object-fit: cover;
+  height: 395px;
+}
+.dragdiv {
+  margin-right: 20px;
+}
+.dragdivss {
+  width: 352px;
+
+  position: relative;
+}
+.karttasarimbutton {
+  position: absolute;
+  right: 0;
+  right: 10px;
+  top: 30px;
+}
+.karttasarimbutton:hover {
+  position: absolute;
+  right: 0;
+  right: 10px;
+  top: 30px;
+  opacity: 0.4;
+}
+.cemrebutton {
+  position: absolute;
+  right: 0;
+  right: 25px;
+  top: 25px;
+}
+.cemrebutton:hover {
+  position: absolute;
+  right: 0;
+  right: 25px;
+  top: 25px;
+  opacity: 0.4;
+}
+
+.onlyback {
+  background-color: #161617;
+}
+.papelparagraf1 {
+  color: white;
+}
+.papelparagraf2 {
+  color: #cccccc;
+  font-size: 15px;
+  opacity: 0.9;
+}
+.cemreimg {
+  width: 348px;
+  height: 396px;
+  object-fit: cover;
+}
+.shai {
+  width: 348px;
+  height: 393px;
+  object-fit: cover;
+}
+.moradam7 {
+  margin-top: -50px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #0d152e;
+  text-decoration: none;
+}
+.bodys {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.bacbodys {
+  display: flex;
+  width: 1120px;
+  justify-content: center !important;
+  align-items: center;
+  border: 1px solid #ebebeb;
+  border-radius: 6px;
+  background-color: #ebebeb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.creative2 a {
+  font-size: 28px;
+  color: #1b1d33;
+  font-weight: 700;
+  text-decoration: none;
+}
+.creative3 a {
+  font-size: 28px;
+  color: #1b1d33;
+  font-weight: 700;
+  text-decoration: none;
+}
+.creative4 a {
+  font-size: 28px;
+  color: #1b1d33;
+  font-weight: 700;
+  text-decoration: none;
+}
+.creative {
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.creative2 {
+  padding-left: 0px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.creative3 {
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.creative4 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bigdeyoket {
+  display: none !important;
+}
+.creative5 {
+  justify-content: start;
+}
+.Logo {
+  margin-right: 150px;
+}
+.Banner {
+  margin-right: 150px;
+}
+.Brosur {
+  margin-right: 120px;
+}
+.Görsel {
+  margin-right: 120px;
+}
+.altbodys {
+  width: 800px;
+  justify-content: space-between;
+}
+.creativebutton {
+  border: 1px solid black;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 4px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 0px 20px 0px 20px;
+}
+.creativebutton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.chapt6 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.chapt6img {
+  margin-bottom: -100px;
+  width: 900px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.chapter7 {
+  display: flex;
+
+  align-items: center;
+}
+.imghizmet7 {
+  display: none;
+}
+.imgchapter7 {
+  margin-left: 42px;
+}
+.chapter7Lead {
+  font-size: 35px;
+  font-weight: 600;
+}
+.chapter7bg {
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.chapter7Leads {
+  background: transparent linear-gradient(117deg, #a764bf 0%, #5280d6 100%) 0%
+    0%;
+
+  font-weight: 700;
+  font-size: 35px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.chapter7button {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  outline: none;
+  border: none;
+  height: 50px;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.chapter7button:hover {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  outline: none;
+  border: none;
+  height: 50px;
+  margin-top: 10px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.chapter8head {
+  width: 1140px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+.chapter8 {
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.img8 {
+  width: 1120px;
+}
+.eiggarde1{
+  color:#162647;
+
+}
+.eiggarde2{
+  color: #81838C
+
+}
+.chapter8head {
+  margin-top: 50px;
+}
+.chapter8lead {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.chepter8img {
+  width: 60px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.chapter8font1 {
+  font-size: 14px;
+}
+
+/* .chapter8lead {
+  display: flex;
+  flex-direction: row;
+}
+.head1 {
+  display: flex;
+  flex-direction: row;
+}
+.chepter8head {
+  display: flex;
+}
+.chepter8img {
+  width: 80px;
+}
+.chapter8font1 {
+  font-size: 14px;
+} */
+
+/* FOOTER */
+
+.footerimg {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}
+.footerButton {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  text-align: center;
+  align-items: center;
+ 
+   display: flex; 
+   align-items: center; 
+   justify-content: center;
+}
+.foottagmydiv{
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+
+}
+.customeridset{
+  color: #687497;
+}
+.time{
+  color: #687497;
+
+}
+.fa-search {
+  position: absolute;
+  right: 80px;
+  top: 14px;
+  color: white;
+  font-size: 14px;
+}
+.arr {
+  position: absolute;
+  right: 110px;
+  top: 35px;
+}
+.fa-sliders-h {
+  font-size: 21px;
+  border: none;
+}
+
+.divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-bottom: 1px solid gray;
+}
+.btnyeni {
+  background-color: #1199fa;
+  border-radius: 5px;
+  width: 80px;
+  padding: 1px 10px 1px 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+}
+.footerlineparagraf {
+  font-family: San Francisco !important;
+  font-size: 15px;
+  opacity: 0.9;
+}
+.footericon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerfoot {
+  background-color: #1a1723;
+}
+.footeraltfoot {
+  background-color: #0f0e14;
+}
+.footerparagraffoot {
+  width: 400px;
+  height: 20px;
+  padding-top: 3px;
+  font-family: San Francisco !important;
+  font-weight: 400;
+}
+.footerlink {
+  color: #1199fa;
+  text-decoration: none;
+}
+.footerlink:hover {
+  color: #1199fa;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.arrowimg {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.footerafoot {
+  background-color: #1199fa;
+}
+.footeraltfoot {
+  background-color: #0f0e14;
+}
+.footerButton {
+  background-color: white;
+  font-family: San Francisco !important;
+  color: #000000;
+}
+.footerButton:hover {
+  font-family: San Francisco !important;
+  background-color: white;
+  color: #000000;
+  text-decoration: none;
+}
+.retake {
+  font-family: San Francisco !important;
+}
+.Yazilim {
+  font-family: San Francisco !important;
+}
+.Digitalitem {
+  font-family: San Francisco !important;
+}
+.businfootbusinnet {
+  font-family: San Francisco !important;
+}
+.untake {
+  font-family: San Francisco !important;
+}
+
+.te {
+  font-family: San Francisco !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  /* HEADER VE NAVBAR */
+  .navfirts {
+    background-image: url(images/BG1.png);
+    color: white;
+    display: block;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+
+    height: 600px;
+  }
+  .rca {
+    margin-right: 15px;
+  }
+  #uls {
+    visibility: visible !important;
+  }
+  .exit {
+    display: none;
+  }
+  .timesalink {
+    display: none;
+  }
+  .hanburg {
+    display: none;
+  }
+  .navfootalt {
+    display: none !important;
+  }
+  .user {
+    display: none;
+  }
+
+  .Zirve {
+    display: none !important;
+  }
+  .navbarimg {
+    display: none;
+  }
+
+  .Zirve {
+    display: none !important;
+  }
+  #name {
+    position: relative;
+    bottom: 2px;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .GoogleAdwords {
+    padding-top: 0px;
+    padding-left: 0px;
+
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .reklamhizmeti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbarbosluk {
+    margin-top: 30px;
+  }
+  .cemre6 {
+    margin-top: 24px;
+  }
+  /* FOOTER */
+
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .foofight {
+    width: 800px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .Digitalitem {
+    margin-right: 20px;
+  }
+  .toot {
+    display: none;
+  }
+  .Yazilim {
+    margin-right: 40px;
+  }
+  .retake {
+    margin-left: 130px;
+  }
+  .footermean {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .untake {
+    display: none;
+  }
+  .digitalimgborder {
+    margin-bottom: 10px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.9px) {
+  /* HEADER VE NAVBAR */
+  .cap {
+    display: none !important;
+  }
+
+  .businesshead {
+    margin-top: 5px;
+  }
+  .navfirts {
+    background-image: url(images/BG1.png);
+    color: white;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
+  .head {
+    position: relative;
+    top: -50px;
+    text-align: center;
+  }
+  .inputlead {
+    position: relative;
+    top: -100px;
+    padding-left: 0px !important;
+  }
+
+  .inputbutton {
+    position: relative;
+    right: 20px;
+  }
+
+  .navfontsize {
+    font-size: 14px;
+  }
+  .exit {
+    display: none;
+  }
+  .timesalink {
+    display: none;
+  }
+  .hanburg {
+    display: none;
+  }
+  .navfootalt {
+    display: none !important;
+  }
+  .user {
+    display: none;
+  }
+
+  #uls {
+    visibility: visible !important;
+  }
+
+  .Zirve {
+    display: none !important;
+  }
+  .navbarimg {
+    display: none;
+  }
+
+  .girisyap {
+    margin-bottom: 12px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .teklifiste {
+    border: 1px solid #40239e;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #40239e !important;
+    font-size: 14px;
+  }
+  #name {
+    width: 300px;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+  }
+  .te {
+    text-align: center;
+  }
+  .cemre6 {
+    margin-top: 24px;
+  }
+  /* <!-- CARDBODY --> */
+  .cardhead {
+    margin-top: 180px;
+  }
+  .crttext {
+    margin-left: 20px;
+    margin-top: -50px;
+  }
+  .GoogleAdwords {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .reklamhizmeti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arr {
+    position: absolute;
+    right: 410px;
+    top: 35px;
+  }
+  .crdbody2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    flex-direction: column;
+  }
+
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .text-time {
+    margin-bottom: 15px;
+  }
+
+  .chapt6 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin-top: 80px;
+  }
+
+  .chapter6lead {
+    position: relative;
+    top: -300px;
+    margin-left: 10px;
+    width: 600px;
+  }
+  .imgbusines {
+    height: 42px;
+  }
+
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .onlineimg {
+    width: 700px;
+    object-fit: contain;
+  }
+  .navfontsize {
+    font-size: 14px;
+  }
+  .girisyap {
+    margin-bottom: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .teklifiste {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 14px;
+  }
+  .navbarbosluk {
+    margin-top: 30px;
+  }
+  /* FOOTER */
+
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .foofight {
+    width: 800px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .Digitalitem {
+    margin-right: 20px;
+  }
+  .toot {
+    display: none;
+  }
+  .Yazilim {
+    margin-right: 40px;
+  }
+  .retake {
+    margin-left: 130px;
+  }
+  .footermean {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .untake {
+    display: none;
+  }
+  .digitalimgborder {
+    margin-bottom: 10px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+  /* HEADER VE NAVBAR */
+
+  .cap {
+    display: none !important;
+  }
+  .section {
+    display: flex !important;
+  }
+  .navfirts {
+    background-image: url(images/BG1.png);
+    color: white;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
+  #name {
+    margin-right: 0px !important;
+  }
+  .head {
+    position: relative;
+    top: -1100px;
+    text-align: center;
+  }
+  .inputlead {
+    position: relative;
+    top: -1180px;
+    padding-left: 0px !important;
+  }
+
+  .inputbutton {
+    position: relative;
+    right: 20px;
+  }
+  .headliner {
+    font-size: 22px;
+  }
+  .fa-sliders-h {
+    display: flex !important;
+    margin-left: -50px;
+  }
+  .fa-search {
+    margin-right: 0px !important;
+  }
+
+  .hanburg {
+    position: relative;
+    bottom: 580px;
+    left: 470px;
+    font-size: 25px;
+  }
+
+  .mainheadsayfa {
+    position: relative;
+    bottom: 570px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .teklifiste {
+    display: none;
+  }
+
+  /* ////////////////////// */
+  .visiter {
+    position: relative;
+    bottom: 24px;
+    font-size: 12px;
+    color: #c1b8e1;
+  }
+  .sayi {
+    position: relative;
+    bottom: 3px;
+  }
+  .basak {
+    object-fit: contain;
+
+    width: 25px;
+  }
+  .Zirve {
+    position: relative;
+    bottom: 1220px;
+  }
+
+  .liststyle {
+    position: relative;
+    bottom: 81px;
+    float: left;
+    left: 47px;
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .busines1paragraf {
+    font-family: San Francisco !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .busines2paragraf {
+    display: none;
+  }
+  .cap {
+    display: none;
+  }
+  .teklifiste {
+    display: none;
+  }
+  .businesshead {
+    position: relative;
+    bottom: 1200px;
+  }
+
+  .businessimghead {
+    display: flex;
+    flex-direction: row;
+  }
+  /* ///////////////////// */
+
+  #uls {
+    visibility: hidden;
+    padding: 200px 0px 430px 0px;
+    width: 460px;
+    left: 215px;
+    top: -120px;
+    position: relative !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: #40219a;
+    z-index: 99 !important;
+    box-shadow: 0px 0px 100px 800px rgb(0, 0, 0, 0.7);
+  }
+
+  .exit {
+    color: white;
+  }
+  .exit:hover {
+    color: white;
+  }
+  .timesalink {
+    position: relative;
+    right: -250px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .navfootalt {
+    font-size: 14px;
+    color: #b89fff;
+  }
+  .Zirve {
+    display: none;
+  }
+  .nav-item {
+    margin: 10px 0px 0px 30px;
+  }
+  .nav-item a {
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding: 10px 0px 20px 0px;
+  }
+  .user {
+    font-size: 16px;
+  }
+  .nav-items {
+    margin: 10px 0px 0px 30px;
+  }
+  .girisyap {
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 700;
+    width: 200px;
+    height: 45px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 0px;
+  }
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .crdbody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .creative2 {
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+  .creative3 {
+    flex-direction: column;
+    margin-bottom: -25px;
+  }
+  .creative4 {
+    flex-direction: column;
+  }
+  .fa-sliders-h {
+    display: none;
+  }
+  .Görsel {
+    margin-right: 0px;
+  }
+  .Brosur {
+    margin-right: 0px;
+  }
+  .Banner {
+    margin-right: 0px;
+  }
+  .Logo {
+    margin-right: 0px;
+  }
+  .Banner {
+    margin-right: 0px;
+  }
+  .te {
+    text-align: center;
+  }
+
+  .creative5 {
+    justify-content: center;
+    display: flex;
+  }
+  .arr {
+    position: absolute;
+    right: 290px;
+    top: 35px;
+  }
+  .creative {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .crdbody2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    flex-direction: column;
+  }
+  .crttext {
+    margin-left: 0px;
+  }
+  .crttext2 {
+    margin-top: 0px;
+  }
+  .chapt6 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .chapt6img {
+    width: 800px;
+    margin-bottom: 0px;
+  }
+  .chapter6lead {
+    margin-top: -100px;
+    margin-left: 10px;
+    width: 600px;
+  }
+  .moradam7 {
+    font-size: 40px;
+    margin: 5px;
+  }
+  .text-time {
+    margin-bottom: 15px;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .imgbanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainheadsayfa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  /* FOOTER */
+
+  .footerButton {
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .fotbir {
+    display: none;
+  }
+  .foofight {
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .Digitalitem {
+    margin-right: 30px;
+  }
+  .toot {
+    display: none;
+  }
+  .retake {
+    margin-right: 30px;
+  }
+  .footermean {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .untake {
+    display: none;
+  }
+  .te {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arr {
+    position: absolute;
+    right: 290px;
+    top: 35px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767.9px) {
+  /* HEADER VE NAVBAR */
+  .navfirts {
+    background-image: url(images/BG1.png);
+    color: white;
+    display: block;
+
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 67%;
+  }
+  .head {
+    position: relative;
+    top: -1100px;
+    text-align: center;
+  }
+  .inputlead {
+    position: relative;
+    top: -1180px;
+    padding-left: 0px !important;
+  }
+  .headliner {
+    font-size: 22px;
+  }
+  .fa-sliders-h {
+    display: flex !important;
+    margin-left: -50px;
+  }
+
+  .visiter {
+    position: relative;
+    bottom: 24px;
+    font-size: 12px;
+    color: #c1b8e1;
+  }
+  .sayi {
+    position: relative;
+    bottom: 3px;
+  }
+  .basak {
+    object-fit: contain;
+
+    width: 25px;
+  }
+  .Zirve {
+    position: relative;
+    bottom: 1220px;
+  }
+
+  .liststyle {
+    position: relative;
+    bottom: 81px;
+    float: left;
+    left: 47px;
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .busines1paragraf {
+    font-family: San Francisco !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .busines2paragraf {
+    display: none;
+  }
+  .cap {
+    display: none;
+  }
+  .teklifiste {
+    display: none;
+  }
+  .businesshead {
+    position: relative;
+    bottom: 1200px;
+  }
+
+  .businessimghead {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mainheadsayfa {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .exit {
+    color: white;
+  }
+  .exit:hover {
+    color: white;
+  }
+  .timesalink {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .timesalink:hover {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .navfootalt {
+    font-size: 14px;
+    color: #b89fff;
+  }
+
+  .nav-item {
+    margin: 10px 0px 0px 30px;
+  }
+  .nav-item a {
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding: 10px 0px 20px 0px;
+  }
+  .user {
+    font-size: 16px;
+  }
+  .nav-items {
+    margin: 10px 0px 0px 30px;
+  }
+  .girisyap {
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 700;
+    width: 200px;
+    height: 45px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 0px;
+  }
+  #uls {
+    visibility: hidden;
+    padding: 100px 0px 430px 0px;
+    width: 400px;
+    left: 245px;
+    top: -120px;
+    position: relative !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: #40219a;
+    z-index: 99 !important;
+    box-shadow: 0px 0px 100px 500px rgb(0, 0, 0, 0.7);
+  }
+
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .head {
+    margin-top: 0px;
+  }
+  .moradam7 {
+    font-size: 40px;
+    margin: 5px;
+  }
+  .crdbody {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputbutton {
+    position: relative;
+    background-color: #402cb2;
+    width: 100px;
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+    color: white;
+    padding-left: 40px;
+  }
+  .fa-search {
+    position: absolute;
+    right: 60px;
+    top: 14px;
+    color: white;
+    font-size: 14px;
+  }
+  .section {
+    display: none;
+  }
+  .fa-sliders-h {
+    display: none;
+  }
+  #name {
+    width: 400px;
+    border: none;
+    outline: none;
+  }
+  .ptag1 {
+    line-height: 25px;
+  }
+  .creative2 {
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+  .creative3 {
+    flex-direction: column;
+    margin-bottom: -25px;
+  }
+  .creative4 {
+    flex-direction: column;
+  }
+  .Görsel {
+    margin-right: 0px;
+  }
+  .Brosur {
+    margin-right: 0px;
+  }
+  .Banner {
+    margin-right: 0px;
+  }
+  .Logo {
+    margin-right: 0px;
+  }
+  .Banner {
+    margin-right: 0px;
+  }
+  .img8 {
+    width: 500px;
+  }
+  .chapter8head {
+    width: 350px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .te {
+    text-align: center;
+  }
+  .text-time {
+    margin-bottom: 15px;
+  }
+
+  .creative5 {
+    justify-content: center;
+    display: flex;
+  }
+  .arr {
+    position: absolute;
+    right: 210px;
+    top: 35px;
+  }
+  .secondhead {
+    font-size: 30px;
+  }
+  .secondheads {
+    font-size: 30px;
+  }
+  .creative2 a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .creative3 a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .creative4 a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .creative {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .crdbody2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .crttext {
+    margin-left: 0px;
+  }
+  .crttext2 {
+    margin-top: 0px;
+  }
+  .cap {
+    display: none;
+  }
+  .mavihead {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 600px;
+    margin-bottom: 350px;
+  }
+  .chapt6 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .chapt6img {
+    width: 700px;
+    margin-bottom: 0px;
+  }
+  .chapter6lead {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 500px;
+  }
+  .crttext2 {
+    margin-top: 0px;
+    width: 470px;
+  }
+  .cardbusiness222 {
+    width: 450px;
+  }
+  .cc {
+    width: 450px;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mainheadsayfa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  /* <!-- CardPiar --> */
+
+  .papel {
+    width: 372px;
+    object-fit: contain;
+    height: 400px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .secondhead {
+    font-size: 25px;
+  }
+  .secondheads {
+    font-size: 25px;
+  }
+  .imgbanner {
+    display: flex;
+    flex-direction: column;
+  }
+  .dragdiv {
+    padding-left: 75px;
+  }
+  .cemre6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .cemreimg {
+    width: 372px;
+    object-fit: contain;
+  }
+  .shai {
+    width: 372px;
+    object-fit: contain;
+  }
+  .drag {
+    width: 372px;
+  }
+  /* FOOTER */
+  .footerparagraffoot {
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foofight {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .untake {
+    display: none;
+  }
+
+  .te {
+    text-align: center;
+  }
+  .footerButton {
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .fotbir {
+    display: none;
+  }
+  .te {
+    margin-bottom: 20px;
+  }
+
+  .arr {
+    position: absolute;
+    right: 210px;
+    top: 35px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /* HEADER VE NAVBAR */
+  .navfirts {
+    background-image: url(images/BG1.png);
+    color: white;
+    display: block;
+
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 67%;
+  }
+  .head {
+    position: relative;
+    top: -1100px;
+    text-align: center;
+  }
+  .inputlead {
+    position: relative;
+    top: -1180px;
+    padding-left: 0px !important;
+  }
+  .headliner {
+    font-size: 22px;
+  }
+  .inputbutton {
+    width: 100px !important;
+  }
+  .fa-sliders-h {
+    display: flex !important;
+    margin-left: -50px;
+  }
+  .fa-search {
+    margin-right: 15px;
+  }
+  .busines1paragraf {
+    font-family: San Francisco !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .visiter {
+    position: relative;
+    bottom: 24px;
+    font-size: 12px;
+    color: #c1b8e1;
+  }
+  .sayi {
+    position: relative;
+    bottom: 3px;
+  }
+  .basak {
+    object-fit: contain;
+
+    width: 25px;
+  }
+
+  .liststyle {
+    position: relative;
+    bottom: 81px;
+    float: left;
+    left: 47px;
+    width: 7px;
+    height: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+
+  .busines2paragraf {
+    display: none;
+  }
+  .cap {
+    display: none;
+  }
+  .teklifiste {
+    display: none;
+  }
+  .businesshead {
+    position: relative;
+    bottom: 1200px;
+  }
+
+  .businessimghead {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mainheadsayfa {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .exit {
+    color: white;
+  }
+  .exit:hover {
+    color: white;
+  }
+  .timesalink {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .timesalink:hover {
+    position: relative;
+    right: -270px;
+    top: -50px;
+    font-size: 23px !important;
+  }
+  .headbosluk {
+    margin-top: 0px;
+  }
+  .navfootalt {
+    font-size: 14px;
+    color: #b89fff;
+  }
+  .Zirve {
+    position: relative;
+    bottom: 1220px;
+  }
+  .nav-item {
+    margin: 10px 0px 0px 30px;
+  }
+  .nav-item a {
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding: 10px 0px 20px 0px;
+  }
+  .user {
+    font-size: 16px;
+  }
+  .nav-items {
+    margin: 10px 0px 0px 30px;
+  }
+  .girisyap {
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 700;
+    width: 200px;
+    height: 45px;
+    background-color: #ffc300;
+    border: none;
+    border-radius: 0px;
+  }
+  #uls {
+    visibility: hidden;
+    padding: 100px 0px 430px 0px;
+    width: 400px;
+    left: 150px;
+    top: -120px;
+    position: relative !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: #40219a;
+    z-index: 99 !important;
+    box-shadow: 0px 0px 100px 500px rgb(0, 0, 0, 0.7);
+  }
+
+  .head {
+    margin-top: 0px;
+  }
+
+  .bacbodys {
+    width: 450px;
+  }
+
+  /* .inputbutton {
+    position: relative;
+    background-color: indigo;
+    width: 80px;
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+    color: white;
+    padding-left: 40px;
+  } */
+  .fa-search {
+    position: absolute;
+    right: 50px;
+    top: 14px;
+    color: white;
+    font-size: 14px;
+  }
+  .section {
+    display: none;
+  }
+  .fa-sliders-h {
+    display: none;
+  }
+  #name {
+    width: 300px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  .ptag1 {
+    line-height: 25px;
+  }
+  /* <!-- CARDBODY --> */
+  .crdbody {
+    display: flex;
+    flex-direction: column;
+  }
+  .crttext {
+    margin-left: 0px;
+  }
+
+  .imgbanner {
+    display: flex;
+    flex-direction: column;
+  }
+  .creative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cemre6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footericon {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .creative2 {
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+  .creative3 {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -25px;
+  }
+  .creative2 a:hover {
+    opacity: 0.8;
+  }
+  .creative3 a:hover {
+    opacity: 0.8;
+  }
+  .creative4 a:hover {
+    opacity: 0.8;
+  }
+  .moradam7 {
+    font-size: 35px;
+    margin: 5px;
+  }
+  .Görsel {
+    margin-right: 0px;
+  }
+  .Brosur {
+    margin-right: 0px;
+  }
+  .Banner {
+    margin-right: 0px;
+  }
+  .Logo {
+    margin-right: 0px;
+  }
+  .Banner {
+    margin-right: 0px;
+  }
+  .creative4 {
+    flex-direction: column;
+  }
+  .creativebutton {
+    border: 1px solid black;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .creative {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .img8 {
+    width: 400px;
+  }
+  .chapter8head {
+    width: 350px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .imgchapter7 {
+    margin-left: 0px;
+  }
+  .img7 {
+    width: 230px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .chapter7Lead {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .footerimg {
+    margin-left: 380px;
+  } */
+  .l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .creative5 {
+    justify-content: center;
+    display: flex;
+  }
+  .arr {
+    position: absolute;
+    right: 180px;
+    top: 35px;
+  }
+  .papel {
+    width: 372px;
+    object-fit: contain;
+    height: 400px;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .secondhead {
+    font-size: 25px;
+  }
+  .secondheads {
+    font-size: 25px;
+  }
+  .drag {
+    width: 372px;
+  }
+  .cemreimg {
+    width: 372px;
+    object-fit: contain;
+  }
+  .shai {
+    width: 372px;
+    object-fit: contain;
+  }
+  .dragdiv {
+    padding-left: 50px;
+  }
+  .creative2 a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .creative3 a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .creative4 a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .chapt6img {
+    width: 480px;
+  }
+  .chapt6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .chapter6lead {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 400px;
+  }
+  .moradamolarakbr {
+    display: none;
+  }
+  .crdbody2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  .cap {
+    display: none;
+  }
+  .mavihead {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 600px;
+    margin-bottom: 350px;
+  }
+  .GoogleAdwords {
+    padding-top: 0px;
+    padding-left: 0px;
+    align-items: center;
+    text-align: center;
+  }
+  .reklamhizmeti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .iconstyle {
+    margin-top: 25px;
+    flex-direction: column;
+  }
+  .icon1 {
+    margin-bottom: 15px;
+  }
+  .logos {
+    display: none;
+  }
+  .cemrebutton {
+    position: absolute;
+    right: 0;
+    right: 10px;
+    top: 25px;
+  }
+  .cemrebutton:hover {
+    position: absolute;
+    right: 0;
+    right: 10px;
+    top: 25px;
+    opacity: 0.4;
+  }
+  .chapt6img {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .footerparagraffoot {
+    width: 290px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .text-time {
+    margin-bottom: 15px;
+  }
+  .br {
+    display: none;
+  }
+  .cardbodyimg111 {
+    width: 450px;
+    margin-left: 3px;
+  }
+  .cardbusiness222 {
+    width: 450px;
+    margin-left: 20px;
+  }
+  .crttext2 {
+    margin-top: 0px;
+  }
+  .classcontainer {
+    width: 500px;
+  }
+  .onlineimg {
+    width: 480px;
+  }
+
+  .mainheadsayfa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  /* FOOTER */
+
+  .footerheader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerparagraffoot {
+    width: 290px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .footericon {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .footerButton {
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .fotbir {
+    display: none;
+  }
+  .te {
+    margin-bottom: 20px;
+  }
+
+  .untake {
+    display: none;
+  }
+  .foofight {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  @media only screen and (max-width: 420px) {
+    /* NAVBAR VE HEADER */
+    .con {
+      display: flex;
+      justify-content: space-between !important;
+      align-items: center;
+      flex-direction: row;
+    }
+    .businesshead {
+      position: relative;
+      bottom: 850px;
+    }
+    .navfirts {
+      height: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Zirve {
+      position: relative;
+      bottom: 880px !important;
+    }
+    .exit {
+      position: relative;
+      top: 50px;
+      right: 10px;
+    }
+    #uls {
+      visibility: hidden;
+      padding: 30px 0px 120px 0px !important;
+      width: 90%;
+      left: 33.6px;
+      top: 30px;
+      float: right !important;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      background-color: #40219a;
+      z-index: 99 !important;
+      box-shadow: 0px 0px 100px 500px rgb(0, 0, 0, 0.7);
+    }
+    .ulsustu {
+      display: flex;
+      align-items: flex-end !important;
+      justify-content: center;
+      width: 100%;
+      height: 600px;
+    }
+    .dibinputbtnsection {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .head {
+      position: relative;
+      top: -550px;
+      text-align: center;
+    }
+    .inputlead {
+      position: relative;
+      top: -620px;
+      padding-left: 0px !important;
+    }
+    .inputhead {
+      width: 100%;
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+      flex-direction: row;
+    }
+    #name {
+      position: relative;
+      width: 215px;
+      right: 20px;
+      top: -3px;
+      font-size: 15px !important;
+    }
+    .inputtrafik {
+      display: none;
+    }
+    .ptag1 {
+      line-height: 27px;
+    }
+    .fa-sliders-h {
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      display: block !important;
+      margin-left: -50px !important;
+    }
+    .inputbutton {
+      position: relative;
+      background-color: indigo;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      left: 20px;
+      text-align: center;
+      padding-left: 40px !important;
+      padding-right: 30px !important;
+    }
+    .fa-search {
+      position: absolute !important;
+      top: 14px;
+      color: white;
+      font-size: 14px;
+      margin: 0px;
+      margin-right: 20px !important;
+    }
+    /* <!-- CARDBODY --> */
+    .cardbodyimg111 {
+      width: 350px;
+    }
+    .moradambusinesyoketparagraf {
+      display: none;
+    }
+    .mordadamparagraf1001 {
+      opacity: 0.6;
+    }
+    .aramamotoru101 {
+      font-size: 20px;
+    }
+    .imgbusines {
+      width: 40px;
+      height: 40px;
+    }
+    .imghizalcard202 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Moradambusines {
+      margin-bottom: 160px !important;
+    }
+    .Moradambusines {
+      width: 350px;
+    }
+    .cardparagraf {
+      width: 300px;
+      margin-left: -10px;
+    }
+    .brandedntity {
+      font-size: 25px;
+    }
+    /* <!-- NASILCALISIRIZ --> */
+    .cc {
+      display: none;
+    }
+    .crttext2 {
+      margin-top: 20px;
+    }
+    .benzersizfont {
+      font-size: 22px;
+    }
+    .cardhead2 {
+      display: none;
+    }
+    .crdbody2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .mobiloktik {
+      width: 25px;
+      margin-right: 10px;
+    }
+    .editoryal {
+      margin-left: 58px;
+    }
+    .SEO {
+      margin-left: 17px;
+    }
+    .mobildead {
+      width: 350px;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .mobilicincardhizalama {
+      width: 330px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .mobilcardtasarımı {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .worlpressgeliştirme {
+      margin-top: 15px;
+    }
+
+    /* <!-- WEBSİTESİTASARIMI --> */
+    .logosmallicin {
+      display: flex !important;
+      position: relative;
+      bottom: -380px;
+      width: 350px;
+      left: 20px;
+    }
+    .classcontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -200px;
+      width: 350px;
+      padding-left: 30px !important;
+    }
+
+    .checkboxhizalama {
+      display: flex;
+      flex-direction: column;
+    }
+    .brwebstesmalsil {
+      display: none;
+    }
+    .card3button {
+      margin-top: 30px !important;
+      padding: 0px;
+      margin: 0px;
+    }
+    .websitefontsmaallicin {
+      width: 350px;
+      font-size: 25px !important;
+    }
+    .mavi {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 1200px;
+    }
+    .mavihead {
+      margin-top: -370px;
+    }
+
+    /* REKAMTÜRLERİ */
+    .googlecard4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 1050px !important;
+    }
+    .prodimg {
+      margin-left: 50px;
+    }
+    .aramaagıfontsmalicin {
+      margin-left: 30px;
+    }
+    .aramagı {
+      display: none;
+    }
+    .reklamhizalama {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .paragraf4 {
+      font-size: 17px !important;
+      display: flex;
+      padding: 0px !important;
+      margin: 0px !important;
+    }
+    .agreklamslar {
+      width: 340px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .aramagısmalmodaramaagı {
+      background-color: white;
+      display: flex;
+      box-shadow: 8px 11px 26px #91919128;
+      margin-top: 20px;
+      width: 350px;
+      border: 1px solid white;
+      border-radius: 10px;
+    }
+    .reklamhizmeti {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: start;
+    }
+    .GoogleAdwords {
+      width: 100% !important;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .adworstext {
+      display: flex;
+      padding-left: 0px !important;
+      text-align: left;
+      margin-left: 0px !important;
+    }
+    .smallicinboyutlama {
+      width: 370px;
+    }
+    .icon1 {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px !important;
+      vertical-align: middle !important;
+      margin-top: 0px !important;
+    }
+    .iconstyle2 {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+    .smailicinreklamtürü {
+      width: 200px;
+    }
+    .smaliciniconstylefont2 {
+      padding-top: 10px;
+    }
+    .iconstylefont2 {
+      width: 200px;
+    }
+    .iconstyle {
+      margin-bottom: -25px !important;
+    }
+    .b {
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+    }
+    .onlineimg {
+      width: 350px;
+    }
+
+    /* MOARDAMHANGİTEKNOLOJİLERİKULLANIYOR */
+    .chapt6 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .moradamolarakbr {
+      display: block;
+    }
+    .chapt6img {
+      width: 400px;
+    }
+    .chapter6head {
+      width: 350px;
+      margin-left: 0px !important;
+      font-size: 22px !important;
+    }
+    .chapter6lead {
+      width: 350px;
+      margin-right: 0px;
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    /* <!-- CardPiar --> */
+
+    .head6 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .headparagraf6 {
+      width: 338px;
+    }
+    .imgbanner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .imghead {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .smalicinyoketezgi {
+      display: none !important;
+    }
+    .smalicinyoketsigorta {
+      display: none !important;
+    }
+    .smalicinyoketpapel {
+      display: none !important ;
+    }
+    .smalicinyoketkart {
+      display: none !important;
+    }
+    .onlysmalfonthiza {
+      width: 350px;
+    }
+    .dragdiv {
+      width: 100%;
+      padding-left: 0px;
+      margin-left: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+      flex-direction: column;
+    }
+    .dragdivss {
+      position: relative;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .karttasarim {
+      width: 350px;
+    }
+    .karttasarimbutton {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .karttasarimbutton:hover {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .cemre6 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cemreimg {
+      width: 350px;
+    }
+    .cemrebutton {
+      position: absolute;
+      right: 20px;
+      top: 50px;
+    }
+    .cemrebutton:hover {
+      position: absolute;
+      right: 20px;
+      top: 50px;
+    }
+    .shai {
+      width: 350px;
+    }
+    /* <!-- KURUMSALKİMLİK --> */
+    .bodys {
+      background-color: #ebebeb;
+    }
+    .bacbodys {
+      width: 350px;
+    }
+    .moradam7 {
+      display: none;
+    }
+    .altbodys {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .creative2 {
+      margin-bottom: 10px;
+      width: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-direction: row;
+    }
+    .creative2 a {
+      font-size: 23px;
+      margin-right: 20px;
+    }
+    .creative3 {
+      margin-bottom: 10px;
+      width: 350px;
+
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: start;
+    }
+    .creative3 a {
+      font-size: 23px;
+      margin-right: 20px;
+    }
+    .creative4 {
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+    .creative4 a {
+      font-size: 23px;
+      margin-right: 20px;
+    }
+    .Modelleme {
+      display: none;
+    }
+    .kurumsalkimlik {
+      display: none;
+    }
+    .bigdeyoket {
+      display: flex !important;
+      flex-direction: row;
+    }
+    .kurumsalkimliksmallicin {
+      display: block !important;
+    }
+    .baskı {
+      display: none;
+    }
+    .creative5 {
+      margin-top: 30px;
+    }
+    /* <!-- HİZMETYARATMA --> */
+    .chapter7bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 50px;
+      padding-bottom: 40px;
+    }
+    .imghizmet7 {
+      width: 350px;
+      display: block !important;
+      margin-bottom: 20px;
+    }
+    .chapter7button {
+      width: 350px;
+    }
+    .chapter7button:hover {
+      margin-top: 30px;
+    }
+
+    .imgchapter7 {
+      display: none !important;
+    }
+    .chapter7Lead {
+    }
+    .yalnıxcahizmetyoket {
+      display: none;
+    }
+    .chapter7Lead {
+      font-size: 27px;
+    }
+    .chapter7Leads {
+      font-size: 27px;
+    }
+    .xxsboymarginicin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .chapter7enust {
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .chapter7 {
+      align-items: center !important;
+      display: flex;
+      align-items: center !important;
+    }
+    /* <!-- DİGİTALPAZARLAMAALPEREFOTO --> */
+
+    .img8 {
+      width: 350px;
+    }
+
+    /* FOOTER */
+    .retake {
+      display: none !important;
+    }
+    .businfootbusinnet {
+      display: none !important ;
+    }
+    .untake {
+      display: none !important;
+    }
+    .footerimg {
+      margin-left: 40px;
+    }
+    .footerButton {
+      display: none !important;
+    }
+    .divider {
+      display: none !important;
+    }
+    .foofight {
+      display: flex;
+
+      flex-direction: column;
+    }
+    .Digitalitem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .Yazilim {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .retake {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .untake {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .businfootbusinnet {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .footerparagraffoot {
+      margin-left: 20px;
+    }
+    .sadecesonboy {
+      height: 140px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}
